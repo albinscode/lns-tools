@@ -1,0 +1,580 @@
+{
+  "races": [
+    {
+
+        "id": "agamite",
+        "titre": "Agamite",
+        "soustitre": "Race, à partir de NDP 2",
+        "synopsis": "Étant quasiment dénué d’émotions et peu sujet à l’impulsivité, ce personnage est né sans sexe biologique. Sa race a été créée pour servir l’Autarque dans les plus hautes strates administratives et est particulièrement adaptée aux travaux intellectuels minutieux tels que les textes de loi ou les études, rapports et synthèses.",
+        "phases_conseillees": [
+            "Culture : Manoir Absolu, Nessus, autres cités",
+            "Caste : Serviteur du Trône, Cénobite",
+            "Carrière : Ablégat, Guildaire, Clerc, Moine d’Aquinos"
+        ],
+        "caracteristiques": [
+            "Bonus parmi PER, SGC et VLT",
+            "Modulo 2 parmi CAR, ADR et CST",
+            "AGR NDP +4",
+            "EDU NDP +12",
+            "STA +3"
+        ],
+        "competences": [
+            "Admin. & Lois, Décorum, Furtivité, Histoire, Intendance, Perspicacité, Terres externes, Théologie, Vigilance"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 18",
+            "Langue morte (parlé, lu & écrit) 14",
+            "Langue de l’Aube (parlé) 6",
+            "Deux au choix :",
+            "Malpachi (parlé, lu & écrit) 10",
+            "Xanthique (parlé, lu & écrit) 10",
+            "Tératoïde (lu & écrit) 10"
+        ],
+        "combat": [
+            "Armement civil",
+            "Un disrupteur neural (voir page 97)"
+        ],
+        "traits": [
+            "Ne peut pas utiliser Séduction et y est immunisé"
+        ],
+        "avantages": [
+            "Immuable sérénité : VIR –3 contre le choc mental",
+            "Leviers du pouvoir : STA +3 une fois par partie",
+            "Juste gouvernance : Relance Admin. & Lois ou Intendance une fois par partie"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, un nécessaire d’écriture",
+        "niveau_de_vie": "moyen"
+    },
+    {
+        "id": "automate",
+        "titre": "Automate",
+        "soustitre": "Race, à partir de NDP 2",
+        "synopsis": "Être artificiel intelligent, ce personnage a pour créateur un thaumaturge. Tout comme un humain, il doit se nourrir pour vivre, alimentant une colonie de bactéries électrogènes pour recharger sa batterie. D’apparence humaine grâce à sa pseudo-peau vivante, il doit cacher sa véritable nature car son existence parmi les citoyens est illégale.",
+        "phases_conseillees": [
+            "Culture : Nessus, Campagne, Ville Morte",
+            "Caste : Commun, Paria, Serviteur du Trône",
+            "Carrière : Espion, Thaumaturge, Passe-muraille, Estafier"
+        ],
+        "caracteristiques": [
+            "Bonus parmi toutes les caractéristiques usuelles",
+            "AGR NDP +*, EDU NDP +* (répartir 16 points dans *)",
+            "STA +2"
+        ],
+        "competences": [
+            "Bricolage, Cryptologie, Déguisement, Orientation, Perspicacité, Sciences formelles, Vigilance",
+            "Un au choix : Fulgurique ou Mécanologie",
+            "Deux compétences au choix"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 10",
+            "Un au choix :",
+            "Langue morte (parlé, lu & écrit) 10",
+            "Malpachi (parlé, lu & écrit) 10",
+            "Tératoïde (lu & écrit) 10",
+            "Narquois (parlé) 10"
+        ],
+        "combat": [
+            "Armement civil"
+        ],
+        "traits": [
+            "Possède une pseudo-peau humaine",
+            "Résilience +1",
+            "En veille, ne dépense aucune Énergie. APT PER = 0",
+            "Énergie : la charge de batterie est représentée par les PVG, qui sont récupérés en mangeant du sucre raffiné. Une tasse = 15 PVG. Dépense d’un PVG/veille (1h30) d’activité ou selon les efforts effectués par le personnage"
+        ],
+        "avantages": [
+            "Venu des étoiles : possède une pseudo-peau d’Extrasolaire",
+            "Carcasse renforcée : Résilience +2",
+            "Instruments de mort : tire-billes ou dague rétractable, dissimulés dans le bras",
+            "L’Entretien : Mécanologie +NDP, Fulgurique +NDP, Adæmonition +NDP"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, une trousse d’outils. Ses documents d’identité officiels sont falsifiés (pour les détecter : Très difficile –14)",
+        "niveau_de_vie": "pauvre"
+    },
+    {
+        "id": "enfant_de_la_nuit",
+        "titre": "Enfant de la nuit",
+        "soustitre": "Race, à partir de NDP 2",
+        "synopsis": "De son très ancien peuple, l’Enfant de la nuit est l’héritier d’une existence secrète centrée sur l’entretien de fragments d’un monde oublié et garde le souvenir d’un cataclysme causé par ses ancêtres. Venu de contrées reculées de forêt, de savane, de montagne ou de désert, ce personnage, être fluet aux yeux dorés, a rejoint Nessus.",
+        "phases_conseillees": [
+            "Culture : Tribal, Sauvage, Nomade",
+            "Caste : Autochtone, Paria, Commun",
+            "Carrière : Chasseur-guerrier, Thaumaturge, Aventurier, Artisan"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR et PER",
+            "Modulo 3 en CAR",
+            "AGR NDP +6",
+            "ED U NDP +12",
+            "STA +3"
+        ],
+        "competences": [
+            "Bricolage, Conduite (Monture), Furtivité, Histoire, Perspicacité, Survie, Vigilance",
+            "Un au choix : Bibliothèque ou Cryptologie",
+            "Un au choix : Faune ou Flore",
+            "Deux au choix : Arquémie, Fulgurique, Physique, Sciences formelles ou Stellartech"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 14",
+            "Langue morte (parlé, lu & écrit) 6",
+            "Un au choix",
+            "Malpachi (parlé, lu & écrit) 10",
+            "Tératoïde (lu & écrit) 6"
+        ],
+        "combat": [
+            "Armement autochtone",
+            "Une arme stellaire de catégorie A ou B"
+        ],
+        "traits": [
+            "Nyctalope",
+            "Biorythme nocturne nécessitant 8 veilles (12 h) de sommeil",
+            "Art (Chant) +NDP"
+        ],
+        "avantages": [
+            "Rayon de Lune : Initiative +2",
+            "Éclipse de Lune : Furtivité +3×NDP (dans son biome natal)",
+            "Croissant de Lune : CAR –1, ADR +2"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, un pendentif en cristal",
+        "niveau_de_vie": "moyen"
+    },
+    {
+        "id": "gizai",
+        "titre": "Gizai",
+        "soustitre": "Race, à partir de NDP 1",
+        "synopsis": "Sa peau violette est le souvenir d’un passé extrasolaire. Son peuple est originaire de l’espace, d’où son vaisseau-monde s’écrasa sur Teur. Portant des vêtements de soie bigarrés, il parcourt la Communauté et, partout, défend la liberté. Son peuple, qui a le tabou de l’immobilité, ne doit en principe pas rester plus de deux jours au même endroit.",
+        "phases_conseillees": [
+            "Culture : Nomade, Pionnier",
+            "Caste : Optimate, Commun, Tribal",
+            "Carrière : Marchand, Explorateur, Aventurier, Venator"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR, PER et ATT",
+            "AGR NDP +8",
+            "EDU NDP +8",
+            "STA +3"
+        ],
+        "competences": [
+            "Commerce, Connaissance (routes), Folklore, Orientation, Perspicacité, Survie, Vigilance",
+            "Une Conduite au choix : Monture ou Attelage",
+            "Un au choix : Dressage ou Artisanat & Métier",
+            "Un au choix : Faune ou Flore",
+            "Un Art au choix",
+            "Un au choix : Intimidation, Persuasion, Séduction ou Tromperie",
+            "Un au choix : Arquémie ou Fulgurique"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 14",
+            "Malpachi (parlé, lu & écrit) 10",
+            "Tératoïde (lu & écrit) 10",
+            "Signes du Voyage (lu & écrit) 10"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement culturel : dague Korsheed, revolver Koresh, carabine Kwaja"
+        ],
+        "traits": [
+            "VIR –2 contre un climat hostile au choix (canicule, froid, sécheresse, humidité, etc.)"
+        ],
+        "avantages": [
+            "Don du lignage : Koresh ou Korsheed familial de prestige. Compétence +NDP et DGT +2 pour cette arme seulement",
+            "Liens du clan : Actions à +NDP lorsque son clan est menacé",
+            "Gardien du foyer : Dressage +NDP et reçoit un lévrier dressé"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, un nécessaire de campement",
+        "niveau_de_vie": "moyen"
+    },
+    {
+        "id": "humain",
+        "titre": "Humain",
+        "soustitre": "Race, à partir de NDP 1",
+        "synopsis": "L’espèce humaine est née sur Teur il y a des millions d’années et a accompli des exploits l’amenant aux portes de l’éternité. Héritier de la tragique légende de Teur, ce personnage n’est pas bien différent des milliers de milliards d’autres humains qui vécurent avant lui. Comme eux, il lui revient de forger son propre destin.",
+        "phases_conseillees": [
+            "Culture : toutes Cultures",
+            "Caste : toutes Castes",
+            "Carrière : toutes Carrières"
+        ],
+        "caracteristiques": [
+            "Bonus parmi toutes les caractéristiques usuelles",
+            "AGR NDP +7",
+            "EDU NDP +5",
+            "STA +2"
+        ],
+        "competences": [
+            "Escalade, Folklore, Furtivité, Intimidation, Orientation, Perspicacité, Séduction, Survie, Vigilance"
+        ],
+        "langages": [
+            "Commun (parlé) 6"
+        ],
+        "combat": [
+            "Armement civil"
+        ],
+        "traits": [
+            "Choisir une des compétences attribuées ci-dessus. Le personnage obtient : Relance (compétence choisie) une fois par partie"
+        ],
+        "avantages": [
+            "La Cité : Perspicacité +NDP, Folklore +NDP, Commerce +NDP",
+            "La Montagne : Glisse +NDP, Vigilance +NDP, Escalade +NDP",
+            "La Forêt : Faune +NDP, Flore +NDP, Furtivité +NDP",
+            "La Plaine : Vigilance +NDP, Conduite (Monture) +NDP Survie +NDP",
+            "Le Littoral : Artisanat & Métier (Pêche) +NDP, Navigation +NDP, Terres externes +NDP"
+        ],
+        "materiel": [
+            "Des vêtements ordinaires, une besace, un mouchoir"
+        ],
+        "niveau_de_vie": "pauvre"
+    },
+    {
+        "id": "malakar",
+        "titre": "Malakar",
+        "soustitre": "Race, à partir de NDP 1",
+        "synopsis": "Parfaitement adapté à une existence en milieu ravagé, ce personnage, hybride d’homme et de rat, bénéficie de la rusticité du rongeur et de l’adaptabilité de l’homme pour tirer parti de son environnement, quel qu’il soit. Contrairement aux autres hybrides, il est fertile. Méprisé par tous, parviendra-t-il à dépasser sa condition ?",
+        "phases_conseillees": [
+            "Culture : Ville Morte, Athara, Sauvage",
+            "Caste : Paria",
+            "Carrière : Bandit, Chasseur-guerrier, Écorcheur, Survivant"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR et PER",
+            "Modulo 2 parmi CAR, CST et ATT",
+            "AGR NDP +9",
+            "EDU NDP +3",
+            "STA +0"
+        ],
+        "competences": [
+            "Fouille, Furtivité, Orientation, Perspicacité, Survie, Tromperie, Vigilance",
+            "Un au choix : Escalade ou Natation",
+            "Un au choix : Bricolage ou Effraction",
+            "Un au choix : Commerce, Folklore ou Jeu",
+            "Une Connaissance au choix : Ville Morte ou Athara"
+        ],
+        "langages": [
+            "Commun (parlé) 10"
+        ],
+        "armement": [
+            "Armement post-apocalyptique",
+            "Armement primal",
+            "Armement autochtone",
+            "Armement naturel : griffes, crocs"
+        ],
+        "traits": [
+            "CAR –3 pour se faufiler dans un passage étroit"
+        ],
+        "avantages": [
+            "Odorat : Vigilance +3×NDP (odorat)",
+            "Rat d’eau : Natation +NDP, Fouille +NDP, Survie +NDP",
+            "Le Crado : Orientation +NDP, Survie +NDP, Escamotage +NDP",
+            "Ratiches : Bonus de +2 DGT avec ses armes naturelles",
+            "Ratatouille : Digère nourritures avariées et plantes",
+            "Scélérat : Tromperie +NDP, Esquive +NDP, Effraction +NDP"
+        ],
+        "materiel": "Des vêtements pauvres, un sac à dos",
+        "niveau_de_vie": "miséreux"
+    },
+    {
+        "id": "homme_mastiff",
+        "titre": "Homme-mastiff",
+        "soustitre": "Race, à partir de NDP 2",
+        "synopsis": "Puissant hybride de molossoïde et d’homme, il en a respectivement la tête et le corps. Stérile comme tous les hybrides, il est réputé pour sa loyauté et son flair. Sa race est fréquemment employée pour diverses missions de protection de haut vol, telles que l’escorte de trésors, de personnes importantes ou de prisonniers dangereux.",
+        "phases_conseillees": [
+            "Culture : Nessus, Manoir Absolu, Sauvage, Tribal",
+            "Caste : Serviteur du Trône, Paria, Autochtone",
+            "Carrière : Mercenaire, Gladiateur, Estafier, Bandit"
+        ],
+        "caracteristiques": [
+            "Bonus parmi CAR, PER et VLT",
+            "Modulo 1 parmi SGC et ATT",
+            "AGR NDP +11",
+            "EDU NDP +8",
+            "STA +1"
+        ],
+        "competences": [
+            "Folklore, Fouille, Intimidation, Jeu, Natation, Orientation, Perspicacité, Vigilance",
+            "Une Conduite au choix : Attelage ou Automotive"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 10"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement légionnaire",
+            "Armement naturel : crocs"
+        ],
+        "traits": [
+            "Vigilance +NDP et Fouille +NDP (avec l’odorat)",
+            "Légère fourrure (VIR –1 contre le froid)",
+            "Pieds humains ou coussinets au choix"
+        ],
+        "avantages": [
+            "Chien de garde : Actions à +NDP lorsque son maître est menacé",
+            "Chien de guerre : Bonus de NDP en PVI",
+            "Chien de chasse : Survie +NDP, Vigilance +NDP, Escalade +NDP",
+            "Chien battu : Résilience +2",
+            "Chient méchant : Intimidation +NDP, Vigilance +NDP, Fouille +NDP"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, une petite balle en cuir",
+        "niveau_de_vie": "modeste"
+    },
+    {
+        "id": "paracas",
+        "titre": "Paracas",
+        "soustitre": "Race, à partir de NDP 2",
+        "synopsis": "Individu au crâne allongé, à la peau bronzé et aux cheveux roux, le Paracas fait partie de ces races humaines d'origine inconnue qui scellèrent autrefois un pacte avec une culture extrasolaire et survécurent aux millénaires. De son peuple étrange, sensible et paisible, le personnage possède l'amour de l'art, de la philosophie et des sciences.",
+        "phases_conseillees": [
+            "Culture: Tribal, Nessus, Campagne, Nomade",
+            "Caste: Autochtone, Commun",
+            "Carriere: Thaumaturge, Artisan, Dilettante, Saronide"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR, SGC et VLT",
+            "Modulo 1 parmi CAR et CST",
+            "AGR NDP +3",
+            "EDU NDP +12",
+            "STA +3"
+        ],
+        "competences": [
+            "Bibliothèque, Commerce, Décorum, Folklore, Histoire, Jeu, Perspicacite, Vigilance",
+            "Un Artisanat & Métier au choix",
+            "Un au choix : Faune ou Flore",
+            "Un au choix : Art (Dessin), Art (Mosaïque), Art (Musique), Art (Peinture), Art (Poésie), Art (Rhétorique) ou Art (Sculpture)",
+            "Une Thaumaturgie au choix : Arquémie, Bioscience, Génétique, Mécanologie ou Médecine"
+        ],
+        "langages": [
+            "Commun (parlé, lu, écrit) 14",
+            "Langue morte (parlé, lu, écrit) 10",
+            "Un au choix : Malpachi (parlé) 6 ou Xanthique (parlé) 6"
+        ],
+        "combat": [
+            "Armement civil", "disrupteur neuronal"
+        ],
+        "traits": [
+            "Relance une Art une fois par partie",
+            "STA +2 envers les artistes ou amateurs d'art humains"
+        ],
+        "avantages": [
+            "Sceau du firmament: peut être aidé, une fois par partie, par un aquastor d'origine extrasolaire",
+            "Le Mirifique: ATT +1",
+            "L'Esthète : Un Art +NDP, un artisanat & Métier + NDP, Commerce +NDP"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, une trousse d'instruments pour un art",
+        "niveau_de_vie": "pauvre"
+    },
+    {
+        "id": "pasht",
+        "titre": "Pasht",
+        "soustitre": "Race, à partir de NDP 2",
+        "synopsis": "Hybride mi-homme, mi-félin, ce personnage a une tête de chat et un corps humain à la fourrure fine. Ses griffes acérées sont aussi dangereuses que sa race est imprévisible. Les pasht ont été initialement créés pour surveiller le Second Manoir mais certains thaumaturges indépendants peuvent en produire.",
+        "phases_conseillees": [
+            "Culture : Manoir Absolu, Nessus, Sauvage, Tribal",
+            "Caste : Serviteur du Trône, Paria, Autochtone",
+            "Carrière : Estafier, Mercenaire, Espion, Aventurier"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR, PER et ATT",
+            "Modulo 1 en CAR",
+            "AGR NDP +10",
+            "EDU NDP +9",
+            "STA +3"
+        ],
+        "competences": [
+            "Décorum, Escalade, Furtivité, Occultation, Perspicacité, Séduction, Stratégie, Vigilance",
+            "Un au choix : Art (Danse), Art (Musique) ou Jeu"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 14"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement naturel : griffes rétractiles et crocs"
+        ],
+        "traits": [
+            "Nyctalope",
+            "Initiative +1",
+            "Pieds humains ou coussinets au choix"
+        ],
+        "avantages": [
+            "Œil de tigre : Vigilance +NDP, Perspicacité +NDP, Orientation +NDP",
+            "Griffes de titane : Griffes +2 DGT supplémentaires",
+            "Charme félin : Séduction +NDP, Persuasion +NDP, Tromperie +NDP"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, un nécessaire de toilette, des friandises au poisson",
+        "niveau_de_vie": "modeste"
+    }
+  ],
+  "cultures": [
+    {
+        "id": "athara",
+        "titre": "Athara",
+        "soustitre": "Culture, à partir de NDP 1",
+        "synopsis": "Originaire du Grand En-dessous, ce personnage est né dans les entrailles de Nessus et en connaît bien les passages tortueux, les voûtes de pierre ou les sols pavés de siècles. Loin des rayons du Soleil, l’Atharien mène une existence dangereuse, aux prises avec les goules et risquant, à chaque instant, de périr sous un effondrement.",
+        "phases_conseillees": [
+            "Race : Humain, Automate, Malakar",
+            "Caste : Paria, Commun, Optimate",
+            "Carrière : Survivant, Bandit, Main des Gueux, Marchand"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR, PER et VLT",
+            "Modulo 2 parmi CAR, CST et ATT",
+            "AGR NDP +7",
+            "EDU NDP +4",
+            "STA +1"
+        ],
+        "competences": [
+            "Bricolage, Connaissance (Athara), Effraction, Furtivité, Survie, Vigilance",
+            "Un au choix : Fouille ou Orientation",
+            "Un Artisanat & Métier au choix",
+            "Un au choix : Escalade ou Natation"
+        ],
+        "langages": [
+            "Commun (parlé) 10"
+        ],
+        "combat": [
+            "Armement post-apocalyptique"
+        ],
+        "traits": [
+            "Ne souffre pas d’être privé de soleil et d’air frais",
+            "VIR –2 contre la faim"
+        ],
+        "avantages": [
+            "La Blatte : Furtivité +NDP, Escalade +NDP, CAR –1 pour se faufiler",
+            "Le Fripier : Commerce +NDP, Jeu, +NDP, Fouille +NDP",
+            "La Taupe : Orientation +NDP et Survie +3×NDP (en Athara)"
+        ],
+        "materiel": "Une torche, une petite barre en fer",
+        "niveau_de_vie": "pauvre"
+    },
+    {
+        "id": "kejiaren",
+        "titre": "Kejiaren",
+        "soustitre": "Culture, à partir de NDP 1",
+        "synopsis": "Cité de forteresses de terre circulaires sises en bordure de la jungle d’Ouroboros, Kejiaren a donné à ce personnage une grande curiosité pour les autres cultures. Doté de traits fins aux yeux en amande, d’une peau hâlée et de cheveux noirs, il a quitté la protection des murs de sa forteresse natale pour découvrir le tumulte bigarré de Nessus.",
+        "phases_conseillees": [
+            "Race : Humain",
+            "Caste : Commun, Autochtone, Optimate, Exulte, Armiger",
+            "Carrière : Scion, Espion, Explorateur, Milicien"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR, SGC et ATT",
+            "Modulo 1 en CAR",
+            "AGR NDP +6",
+            "EDU NDP +7",
+            "STA +2"
+        ],
+        "competences": [
+            "Connaissance (Kejiaren), Décorum, Folklore, Histoire, Perspicacité, Stratégie, Terres externes, Vigilance",
+            "Un au choix : Furtivité ou Jeu",
+            "Un au choix : Conduite (Attelage) ou Flore"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 10",
+            "Malpachi (parlé) 6",
+            "Xanthique (parlé, lu & écrit) 6"
+        ],
+        "combat": [
+            "Armement civil"
+        ],
+        "traits": [
+            "Compétence d’arbalète +NDP"
+        ],
+        "avantages": [
+            "Le Sapeur : Orientation +NDP, Bricolage +NDP, Furtivité +NDP",
+            "L’Artilleur : acquiert la compétence « Artillerie » (SGC) +3×NDP",
+            "Le Tirailleur : compétence d’arbalète +NDP, Vigilance +NDP, Esquive +NDP"
+        ],
+        "materiel": "Une boîte de bois exotique, un souvenir familial",
+        "niveau_de_vie": "modeste"
+    }
+  ],
+  "castes": [
+    {
+        "id": "cenobite",
+        "titre": "Cénobite",
+        "soustitre": "Caste, à partir de NDP 1",
+        "synopsis": "Évoluant dans les interstices de la société, le paria a choisi ou a hérité de la condition de hors-caste. Libre des obligations qui reviennent aux citoyens ordinaires, il est néanmoins susceptible de subir les rigueurs de la loi autarcique : le paria n’a aucun droit. Et c’est malgré ce sort difficile qu’il existe et que, parfois même, il prospère.",
+        "phases_conseillees": [
+            "Race : Humain, Malakar, Pasht, Homme-mastiff, Automate",
+            "Culture : Athara, Glaume, Ville Morte, Campagne, Nomade",
+            "Carrière : Écorcheur, Bandit, Main des Gueux, Charlatan, Mercenaire, Survivant"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR et PER",
+            "Modulo 1 en CST",
+            "AGR NDP +5",
+            "EDU NDP +5",
+            "STA +0"
+        ],
+        "competences": [
+            "Commerce, Connaissance (pègre), Furtivité, Jeu, Orientation, Survie, Vigilance",
+            "Un au choix : Bricolage ou Falsification",
+            "Un au choix : Effraction ou Escamotage",
+            "Un au choix : Intimidation ou Tromperie"
+        ],
+        "langages": [
+            "Commun (parlé) 10",
+            "Malpachi (parlé) 6",
+            "Narquois (parlé) 6"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement post-apocalyptique"
+        ],
+        "traits": [
+            "Relance Vigilance une fois par partie"
+        ],
+        "avantages": [
+            "Queue-de-rat : possède un « enfant-rat », mendiant professionnel infirme qui lui rapporte NDP asimi par lune",
+            "Le Vagabond : DPL +2",
+            "Le Rhapsode : Art (Chant) +NDP, Art (Musique) +NDP, Art (Danse) +NDP",
+            "Le Bransqueteur. Racket de NDP commerces, chacun rapportant un asimi par lune"
+        ],
+        "materiel": "Une chandelle, une pèlerine usée, un bol en bois et une cuillère, une tasse en fer blanc, un jeton pour les thermes, un mètre de ficelle",
+        "niveau_de_vie": "pauvre"
+    }
+  ],
+  "carrieres": [
+    {
+        "id": "moine_d_aquinos",
+        "titre": "Moine d'Aquinos",
+        "soustitre": "Carrière, à partir de NDP 2",
+        "synopsis": "Ce personnage a choisi de suivre la voie du dieu de la Vérité. Membre d’un ordre mystique prestigieux qui poursuit les nécromants, les criminels et les corrompus partout où ils se trouvent, le moine d’Aquinos privilégie l’effort, la rigueur et l’exactitude au cours de ses enquêtes. « Séparer le grain de l’ivraie » est la devise de son ordre inquisitorial.",
+        "phases_conseillees": [
+            "Race : Humain",
+            "Culture : Nessus, Manoir Absolu, autres cités",
+            "Caste : Cénobite"
+        ],
+        "caracteristiques": [
+            "Bonus parmi SGC et VLT",
+            "AGR NDP +8",
+            "EDU NDP +12",
+            "STA +4"
+        ],
+        "competences": [
+            "Admin. & Lois, Bibliothèque, Conduite (Monture) Connaissance (pègre), Enquête, Folklore, Fouille, Perspicacité, Théologie",
+            "Un au choix : Arquémie ou Bioscience",
+            "Un au choix : Falsification ou Persuasion"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 18",
+            "Lange morte (parlé, lu & écrit) 14"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement culturel : fléau de justice"
+        ],
+        "traits": [
+            "Son sacerdoce lui interdit de mentir",
+            "Relance Enquête une fois par partie"
+        ],
+        "avantages": [
+            "Le Regard d’Aquinos : Enquête +NDP, Fouille +NDP, une Thaumaturgie au choix parmi Arquémie, Bioscience, Génétique, Médecine, Occultation ou Sciences formelles +NDP",
+            "La Pensée d’Aquinos : Enquête +NDP, Perspicacité +NDP, Connaissance (pègre) +NDP",
+            "La Volonté d’Aquinos : Intimidation +2×NDP, Perspicacité +NDP",
+            "La Colère d’Aquinos : compétence de fléau de justice +2×NDP, possession de cette arme, Esquive +NDP",
+            "Le Flair d’Aquinos : Bibliothèque +2×NDP, Intendance +NDP"
+        ],
+        "materiel": "Des documents officiels et un sceau, une bague sigillaire, un nécessaire de criminalistique (matériel de police scientifique), l’uniforme de son ordre, une lampe fulgurique, un petit codex législatif, un nécessaire d’écriture, une paire de manacles",
+        "niveau_de_vie": "modeste"
+
+    }
+  ]
+}
