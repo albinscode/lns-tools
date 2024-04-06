@@ -444,6 +444,228 @@
         "niveau_de_vie": "pauvre"
     },
     {
+        "id": "campagne",
+        "titre": "Campagne",
+        "soustitre": "Culture, à partir de NDP 1",
+        "synopsis": "Rude à la tâche, le personnage a grandi dans une zone d’élevage ou de plantation, qu’elle soit en Ceinture agricole de Nessus ou bien au-delà du Grand Mur, dans les villages productifs gravitant autour de la capitale. En ces temps difficiles, les fermes et hameaux perdus sont un endroit peu sûr pour un adolescent et il a décidé de rejoindre Nessus.",
+        "phases_conseillees": [
+            "Race : Humain, Gizaï, Paracas",
+            "Caste : Commun, Autochtone, Paria, Anachorète",
+            "Carrière : Aventurier, Marchand, Artisan, Bandit, Clerc, Marcheur de St-Ruffan"
+        ],
+        "caracteristiques": [
+            "Bonus parmi CAR, CST et VLT",
+            "Modulo 1 parmi SGC et ATT",
+            "AGR NDP +5",
+            "EDU NDP +5",
+            "STA +1"
+        ],
+        "competences": [
+            "Bricolage, Conduite (Attelage), Folklore, Théologie, Vigilance",
+            "Un Artisanat & Métier au choix",
+            "Un au choix : Faune ou Flore",
+            "Un au choix : Commerce ou Dressage",
+            "Un au choix : Art (Chant), Art (Danse) ou Art (Musique)"
+        ],
+        "langages": [
+            "Commun (parlé) 10",
+            "Malpachi (parlé) 6"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement culturel : fléau agricole, fourche, torche enflammée"
+        ],
+        "traits": [
+            "Bonus de NDP en PVG",
+            "Toute action agricole à +ndp"
+        ],
+        "avantages": [
+            "Buriné : VIR –3 contre les extrêmes de chaleur et de froid",
+            "Enfant du Pays : Folklore +ndp, Art (Danse) +ndp, Histoire +ndp",
+            "C’est pas faux : Tromperie +ndp, Perspicacité +ndp, Jeu +ndp",
+            "On en a gros : Persuasion +ndp, Décorum +ndp, Intimidation +ndp"
+        ],
+        "materiel": "Une charrette à bras, une miniature familiale",
+        "niveau_de_vie": "modeste"
+    },
+    {
+        "id": "eclectique",
+        "titre": "Eclectique",
+        "soustitre": "Culture, à partir de NDP 1",
+        "synopsis": "Membre d’une peuplade métissée et à la réputation farouche et indépendante, l’Éclectique vit souvent en marge de la société. Personnage bigarré, il a hérité d’une culture qui est le fruit de la rencontre entre le Natif et le Commun. Comme les siens, ce personnage louvoie à la recherche de sa place dans la société.",
+        "phases_conseillees": [
+            "Race : Humain",
+            "Caste : Commun, Paria",
+            "Carrière : Bandit, Marchand, Aventurier"
+        ],
+        "caracteristiques": [
+            "Bonus parmi CAR et CST",
+            "Modulo 1 parmi SGC et ATT",
+            "AGR NDP +6",
+            "EDU NDP +4",
+            "STA +1"
+        ],
+        "competences": [
+            "Bricolage, Commerce, Folklore, Vigilance",
+            "Un au choix : Séduction ou Tromperie",
+            "Un au choix : Effraction ou Furtivité",
+            "Un au choix : Art (Chant) ou Art (Musique)",
+            "Un Artisanat & Métier au choix"
+        ],
+        "langages": [
+            "Commun (parlé) 10",
+            "Malpachi (parlé) 10",
+            "Narquois (parlé) 6",
+            "Signes du Voyage (lu & écrit) 2"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement autochtone",
+            "Armement culturel : coutelas thraxien"
+        ],
+        "traits": [
+            "Hommes : Bonus de NDP en PVG ; femmes : ATT +1"
+        ],
+        "avantages": [
+            "Pas de rabais : relance Commerce une fois par partie",
+            "L’Altercation : Bagarre +ndp, Esquive +ndp, compétence d’arme coutelas thraxien +ndp",
+            "Charme exotique : Séduction +3×ndp",
+            "La Famille d’abord : Actions à +ndp lorsque sa famille est menacée"
+        ],
+        "materiel": "Un couteau de poche, un petit instrument de musique",
+        "niveau_de_vie": "modeste"
+    },
+    {
+        "id": "ephyria",
+        "titre": "Ephyria",
+        "soustitre": "Culture, à partir de NDP 1",
+        "synopsis": "Venu des îles du Sud battues par les vents glaciaux, cet individu au teint et aux cheveux clairs a bravé monts et marées pour atteindre sa destination. Particulièrement endurci par le froid extrême de cette nation et par les affrontements avec les pirates et les monstres océaniques, son peuple fournit à la Communauté ses meilleurs marins.",
+        "phases_conseillees": [
+            "Race : Humain",
+            "Caste : Commun, Optimate, Armiger",
+            "Carrière : Explorateur, Marchand, Mercenaire, Aventurier, Naute, Estafier"
+        ],
+        "caracteristiques": [
+            "Bonus parmi CAR, ADR, CST et VLT",
+            "AGR NDP +9",
+            "EDU NDP +7",
+            "STA +2"
+        ],
+        "competences": [
+            "Commerce, Connaissance (Éphyria), Folklore, Glisse, Navigation, Théologie, Vigilance",
+            "Un au choix : Faune ou Flore",
+            "Un Artisanat & Métier au choix",
+            "Un au choix : Premiers soins ou Survie",
+            "Un au choix : Art (Chant), Art (Danse), Art (Musique), Art (Pantomime), Art (Poésie) ou Art (Sculpture)"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 10",
+            "Un au choix :",
+            "Malpachi (parlé) 6",
+            "Signes du voyage (lu & écrit) 6"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement culturel : hache, hakapik, harpon à baleine"
+        ],
+        "traits": [
+            "VIR –2 contre le froid",
+            "Vigilance +ndp (contre les dangers maritimes)"
+        ],
+        "avantages": [
+            "La Boussole : relance Orientation une fois par partie",
+            "Le Raid : Actions à +ndp en combat (contre les pirates)",
+            "Le Loup de mer : Navigation +ndp, Orientation +ndp, Natation +ndp",
+            "Le Chasseur : compétence de carabine Kapal +ndp, possession de cette arme, Survie +ndp"
+        ],
+        "materiel": "Une boussole, un manteau de fourrure",
+        "niveau_de_vie": "modeste"
+    },
+    {
+        "id": "glaume",
+        "titre": "Glaume",
+        "soustitre": "Culture, à partir de NDP 1",
+        "synopsis": "En périphérie de la Cité et assiégée par la Ville Morte, la Glaume, immense zone urbaine déclassée, a donné naissance à ce personnage débrouillard. Méfiant envers ceux qu’il ne connaît pas, il a grandi dans un quartier lentement délaissé par le gouvernement nessunien. Il rêve toujours des ors et de la grandeur promis par Nessus.",
+        "phases_conseillees": [
+            "Race : Humain",
+            "Caste : Commun, Paria, Autochtone",
+            "Carrière : Artisan, Bandit, Marchand, Milicien, Frère juré du Rosaire, Main des Gueux"
+        ],
+        "caracteristiques": [
+            "Bonus parmi CAR, ADR, PER et VLT",
+            "Modulo 1 en CST",
+            "AGR NDP +6",
+            "EDU NDP +5",
+            "STA +1"
+        ],
+        "competences": [
+            "Bricolage, Commerce, Folklore, Jeu, Perspicacité, Théologie",
+            "Un au choix : Intimidation, Persuasion, Séduction ou Tromperie",
+            "Un Artisanat & Métier au choix"
+        ],
+        "langages": [
+            "Commun (parlé) 10",
+            "Narquois (parlé) 2",
+            "Malpachi (parlé) 2"
+        ],
+        "combat": [
+            "Armement civil"
+        ],
+        "traits": [
+            "Estomac solide : VIR –2 pour les nourritures dangereuses (champignons vénéneux, poissons de vase, viande boucanée, épices fortes, alcool frelaté, etc.)"
+        ],
+        "avantages": [
+            "Débrouillard : Bricolage +ndp, Survie +ndp, Commerce +ndp",
+            "La Musette : Art (Musique) +3×ndp et possède une petite cornemuse",
+            "L’Épieur : Perspicacité +ndp, Vigilance +ndp, Furtivité +ndp"
+        ],
+        "materiel": "Une lanterne, un jeu de cartes ou des dés à jouer",
+        "niveau_de_vie": "pauvre"
+    },
+    {
+        "id": "iles_xanthiques",
+        "titre": "Iles xanthiques",
+        "soustitre": "Culture, à partir de NDP 1",
+        "synopsis": "Enfant des archipels xanthiques qui étaient autrefois le berceau d’une civilisation stellaire, il a traversé l’Océan dans une expédition commerciale ou diplomatique et a fait sienne la société nessunienne. Après quelques années de résidence en tant qu’Externe, il a éventuellement mérité d’entrer dans une caste ou, au contraire, est devenu un paria.",
+        "phases_conseillees": [
+            "Race : Humain",
+            "Caste : Commun, Paria",
+            "Carrière : Marchand, Explorateur"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR, SGC et ATT",
+            "Modulo 1 en CAR",
+            "AGR NDP +6",
+            "EDU NDP +10",
+            "STA +3"
+        ],
+        "competences": [
+            "Admin. & Lois, Commerce, Décorum, Navigation, Perspicacité, Terres externes",
+            "Un Artisanat & Métier au choix",
+            "Une Conduite au choix : Monture ou Attelage",
+            "Un au choix : Intendance ou une Thaumaturgie"
+        ],
+        "langages": [
+            "Xanthique (parlé, lu & écrit) 10",
+            "Commun (parlé, lu & écrit) 10",
+            "Malpachi (parlé) 6"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement culturel : arbalète-vipère"
+        ],
+        "traits": [
+            "Navigation +ndp (en mer)"
+        ],
+        "avantages": [
+            "Soleil levant : ATT +1",
+            "Sois comme l’eau : Initiative +1 et Bagarre +ndp",
+            "L’Infiltrateur : Furtivité +ndp, Escalade +ndp, Déguisement +ndp"
+        ],
+        "materiel": "Une carte maritime, un peigne en bois fumé",
+        "niveau_de_vie": "moyen"
+    },
+    {
         "id": "kejiaren",
         "titre": "Kejiaren",
         "soustitre": "Culture, à partir de NDP 1",
@@ -483,6 +705,92 @@
         ],
         "materiel": "Une boîte de bois exotique, un souvenir familial",
         "niveau_de_vie": "modeste"
+    },
+    {
+        "id": "manoir_absolu",
+        "titre": "Manoir Absolu",
+        "soustitre": "Culture, à partir de NDP 1",
+        "synopsis": "Élevé sur le territoire du Manoir Absolu ou même dans un des hypogées du gigantesque palais souterrain, ce personnage a vécu plusieurs années à l’ombre de la présence de l’Autarque, le souverain de la Communauté. Sa famille a peut-être fourni des Serviteurs du Trône, des soldats ou des domestiques ayant servi dans le Manoir ou ses dépendances.",
+        "phases_conseillees": [
+            "Race : Humain, Agamite, Pasht",
+            "Caste : Serviteur du Trône, Commun, Exulte, Escudier",
+            "Carrière : Ablégat, Courtisan, Espion, Rhapsode"
+        ],
+        "caracteristiques": [
+            "Bonus parmi toutes les caractéristiques usuelles",
+            "AGR NDP +3",
+            "EDU NDP +9",
+            "STA +4"
+        ],
+        "competences": [
+            "Admin. & Lois, Bibliothèque, Connaissance (Manoir Absolu), Décorum, Histoire, Perspicacité, Théologie",
+            "Un au choix : Persuasion ou Séduction",
+            "Deux Arts au choix"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 14",
+            "Langue morte (parlé, lu & écrit) 10"
+        ],
+        "combat": [
+            "Armement civil"
+        ],
+        "traits": [
+            "Orientation +ndp (en Athara)",
+            "Folklore +ndp (ragots et rumeurs"
+        ],
+        "avantages": [
+            "Le Fortuné : Décorum +ndp, Intendance +ndp, Folklore +ndp",
+            "La Villégiature : possède une petite résidence au Manoir Absolu, en sous-sol ou en surface, au choix",
+            "L’Important : STA +2 envers les castes nobles",
+            "Le Dîner : relance Décorum une fois par partie"
+        ],
+        "materiel": "Un laisser-passer pour les hypogées publics du Manoir Absolu, une lanterne",
+        "niveau_de_vie": "moyen"
+    },
+    {
+        "id": "militaire",
+        "titre": "Militaire",
+        "soustitre": "Culture, à partir de NDP 1",
+        "synopsis": "L’histoire de Teur, c’est celle de ses guerres. Ce personnage est peut-être né d’une longue lignée de gregarii, de bellators ou de guerriers tribaux et il perpétue cette tradition. Il vit, pense, respire, mange et dort militaire, son existence étant dédiée au métier des armes et à l’art de la guerre. Quant à son destin, il est de mourir les armes à la main.",
+        "phases_conseillees": [
+            "Race : Humain, Homme-mastiff, Pasht",
+            "Caste : Commun, Armiger, Paria, Exulte, Autochtone",
+            "Carrière : Mercenaire, Chasseur-guerrier, Commandant, Bandit, Archer de St-Lerne, Estafier"
+        ],
+        "caracteristiques": [
+            "Bonus parmi CAR, ADR, CST, PER et VLT",
+            "AGR NDP +12",
+            "EDU NDP +7",
+            "STA +2"
+        ],
+        "competences": [
+            "Conduite (Monture), Connaissance (Armées), Folklore, Intendance, Intimidation, Premiers soins, Stratégie, Vigilance",
+            "Un au choix : Survie ou Histoire",
+            "Un au choix : Furtivité ou Décorum"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 10",
+            "Un au choix :",
+            "Malpachi (parlé) 10",
+            "Langue morte (parlé, lu & écrit) 6"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement autochtone",
+            "Armement légionnaire",
+            "Armement post-apocalyptique"
+        ],
+        "traits": [
+            "Relance VLT une fois par partie"
+        ],
+        "avantages": [
+            "Cœur d’airain : une compétence d’arme +ndp, Esquive +ndp, Port d’armure +ndp",
+            "Âme d’acier : VLT +3 (contre l’horreur des combats)",
+            "Grêle de plomb : BDG mains nues +3",
+            "Aigle d’or : Stratégie +ndp, Intendance +ndp, Décorum +ndp"
+        ],
+        "materiel": "Une pèlerine, une toile camouflée (Furtivité +5 dans un biome), un nécessaire d’entretien d’armes, un nécessaire de campement",
+        "niveau_de_vie": "moyen"
     }
   ],
   "castes": [
