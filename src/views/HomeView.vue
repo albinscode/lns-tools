@@ -1,18 +1,34 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <img alt="LNS logo" src="../assets/lns_sun.png">
+    <p>
+      Bienvenue sur la suite d'outils pour le jeu de rôle "Le Nouveau Soleil" à destination des joueurs et maîtres de jeu.
+    </p>
+    <p>
+      <a href="https://www.nouveau-soleil.com/" target="_blank" rel="noopener">Site officiel</a>
+    </p>
   </div>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+<style scoped lang="scss">
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+</style>
 
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
-export default class HomeView extends Vue {}
+<script lang="ts">
+
+export default {}
+
 </script>
