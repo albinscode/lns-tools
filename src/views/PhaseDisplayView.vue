@@ -193,7 +193,7 @@ export default defineComponent ({
 
       if (this.searchTerm) {
         this.searchPhases = this.phases['races']
-            .filter(p => JSON.stringify(p).includes(this.searchTerm))
+            .filter(p => JSON.stringify(p).toLowerCase().includes(this.searchTerm.toLowerCase()))
       }
       else {
         this.searchPhases = []
