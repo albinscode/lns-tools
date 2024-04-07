@@ -41,104 +41,26 @@
       </div>
     </div>
     <div class="buttonsWrapper">
+      <div class="searchWrapper">
+        <input name="search" v-model="searchTerm" @keyup="findPhases" placeholder="Entrez un mot à rechercher">
+        <button @click="deleteTerm">Effacer</button>
+      </div>
+    </div>
+    <br />
+    <div class="buttonsWrapper">
       <button @click="generatePDF">Générer le PDF</button>
     </div>
   </div>
   <div ref="printZone" class="phasesWrapper">
     <div class="phasesWrapper2" v-for="(phase, key) in selectedPhases" :key="key">
-        <div class="phaseWrapper" v-if="phase.id">
-          <div class="sectionWrapper">
-            <div class="titre">{{ phase.titre }}</div>
-            <div class="soustitre">{{ phase.soustitre }}</div>
-            <br/>
-          </div>
-          <div class="sectionWrapper">
-            <div class="sectionTitle">Synopsis</div>
-            <div class="sectionContent">{{ phase.synopsis }}</div>
-          </div>
-          <div class="sectionWrapper">
-            <div class="sectionTitle">Phases conseillées</div>
-            <div class="sectionContent">
-              <ul>
-                <li v-for="(phaseConseillee, key) in phase.phases_conseillees" :key="key">
-                  {{ phaseConseillee }}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="sectionWrapper">
-            <div class="sectionTitle">Caracteristiques</div>
-            <div class="sectionContent">
-              <ul>
-                <li v-for="(caracteristique, key) in phase.caracteristiques" :key="key">
-                  {{ caracteristique }}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="sectionWrapper">
-            <div class="sectionTitle">Compétences</div>
-            <div class="sectionContent">
-              <ul>
-                <li v-for="(competence, key) in phase.competences" :key="key">
-                  {{ competence }}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="sectionWrapper">
-            <div class="sectionTitle">Langages</div>
-            <div class="sectionContent">
-              <ul>
-                <li v-for="(langage, key) in phase.langages" :key="key">
-                  {{ langage }}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="sectionWrapper">
-            <div class="sectionTitle">Combat</div>
-            <div class="sectionContent">
-              <ul>
-                <li v-for="(combat, key) in phase.combat" :key="key">
-                  {{ combat }}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="sectionWrapper">
-            <div class="sectionTitle">Traits</div>
-            <div class="sectionContent">
-              <ul>
-                <li v-for="(trait, key) in phase.traits" :key="key">
-                  {{ trait }}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="sectionWrapper">
-            <div class="sectionTitle">Avantages</div>
-            <div class="sectionContent">
-              <ul>
-                <li v-for="(avantage, key) in phase.avantages" :key="key">
-                  {{ avantage }}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="sectionWrapper">
-            <div class="sectionTitle">Materiel</div>
-            <div class="sectionContent">
-              {{ phase.materiel}}
-            </div>
-          </div>
-          <div class="sectionWrapper">
-            <div class="sectionTitle">Niveau de vie</div>
-            <div class="sectionContent">
-              {{ phase.niveau_de_vie}}
-            </div>
-          </div>
-        </div>
+      <div  v-if="phase.id">
+        <PhaseComponent :phase="phase"></PhaseComponent>
+      </div>
+    </div>
+  </div>
+  <div class="phasesSearchWrapper">
+    <div class="phasesListWrapper" v-for="(phase, key) in searchPhases" :key="key">
+      <PhaseComponent :phase="phase"></PhaseComponent>
     </div>
   </div>
 </template>
@@ -165,39 +87,20 @@
   display: flex;
   flex: 1;
 }
-.phaseWrapper {
-  margin: 10px;
+.phasesSearchWrapper {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.phasesListWrapper {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  margin-botton: 50px;
+}
+.searchWrapper {
   flex: 1;
-  /* border: 1px solid; */
-}
-.phaseWrapper .titre {
-  font-size: 16px;
-  font-weight: bold;
-  padding-top: 5px;
-}
-.phaseWrapper .soustitre {
-  font-size: 13px;
-  font-weight: bold;
-}
-.phaseWrapper .sectionWrapper {
-  border: 1px solid;
-}
-.phaseWrapper .sectionTitle {
-  font-size: 14px;
-  font-weight: bold;
-  background: #a7a6a6;
-  padding: 5px;
-}
-.phaseWrapper .sectionContent {
-  padding: 5px;
-  font-size: 12px;
-  text-align: justify;
-}
-.phaseWrapper .sectionContent ul {
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin: 0px;
 }
 .buttonsWrapper {
   flex: 1;
@@ -206,17 +109,12 @@
 
 
 <script lang="ts">
+
 /* import { Options } from 'vue-class-component'; */
 import { defineComponent } from 'vue'
-import { jsPDF } from "jspdf";
-/* import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src */
+import { jsPDF } from "jspdf"
+import PhaseComponent from '@/components/PhaseComponent.vue'
 
-
-/* @Options({ */
-/*   components: { */
-/*     /1* HelloWorld, *1/ */
-/*   }, */
-/* }) */
 interface Phase {
   id: string,
   titre: string,
@@ -246,8 +144,12 @@ interface PhaseMap {
   carriere: Phase;
 }
 export default defineComponent ({
+  components: {
+    PhaseComponent,
+  },
   data() {
     return {
+      searchTerm: '',
       selectedRace: '',
       selectedCulture: '',
       selectedCaste: '',
@@ -259,6 +161,7 @@ export default defineComponent ({
         "carriere": {}
       },
       phases: {} as PhasesMap,
+      searchPhases: [] as Array<Phase>
     }
   },
   watch: {
@@ -276,7 +179,31 @@ export default defineComponent ({
     },
   },
   methods: {
+    findPhases() {
+
+      this.selectPhase('', '', 'races', 'race')
+      this.selectPhase('', '', 'cultures', 'culture')
+      this.selectPhase('', '', 'carrieres', 'carriere')
+      this.selectPhase('', '', 'castes', 'caste')
+
+      this.selectedRace = ''
+      this.selectedCarriere = ''
+      this.selectedCulture = ''
+      this.selectedCaste = ''
+
+      if (this.searchTerm) {
+        this.searchPhases = this.phases['races']
+            .filter(p => JSON.stringify(p).includes(this.searchTerm))
+      }
+      else {
+        this.searchPhases = []
+      }
+    },
+    deleteTerm() {
+      this.searchTerm = ''
+    },
     selectPhase(newValue: string, oldValue: string, phaseMapName: string, phaseName: string) {
+
       let all: Array<Phase> = this.phases[phaseMapName as keyof PhasesMap]
       console.log(`Sélection de phase ${newValue} pour la phase ${phaseName} parmi ${phaseMapName}`)
       if (all) {
@@ -284,6 +211,10 @@ export default defineComponent ({
         console.log(found)
         if (found.length == 1) {
           this.selectedPhases[phaseName as keyof PhaseMap] = found[0]
+        }
+        else {
+          // not found, we erase already selected one
+          this.selectedPhases[phaseName as keyof PhaseMap] = {}
         }
       }
     },
