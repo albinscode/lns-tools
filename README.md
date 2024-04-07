@@ -1,24 +1,22 @@
-# lns-tools2
+# lns-tools
 
-## Project setup
+Ce projet fournit quelques outils pour le jeu de rôle "Le Nouveau Soleil" inspiré du monde de Gene Wolfe.
+
+## Installation
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Serveur de développement
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Construction
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
