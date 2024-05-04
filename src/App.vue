@@ -1,9 +1,14 @@
 <template>
+  <v-app>
+    <v-main>
   <nav>
-    <router-link to="/">Phases</router-link> |
-    <router-link to="/home">Home</router-link>
+    <router-link to="/"><span class="text-h3">Phases</span></router-link> |
+    <router-link to="/home"><span class="text-h3">Home</span></router-link>
   </nav>
   <router-view/>
+
+    </v-main>
+  </v-app>
 </template>
 
 <style lang="scss">
@@ -13,6 +18,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: white;
 }
 
 nav {

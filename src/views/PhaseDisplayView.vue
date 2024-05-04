@@ -1,66 +1,76 @@
 <template>
-  <div class="main">
-    <div class="selectPhasesWrapper">
-      <div class="selectPhaseWrapper">
-        <label>Race</label>
-        <div>
-            <select v-model="selectedRace">
-              <option v-for="race in phases.races" :value="race.id" :text="race.titre" :key="race.id">
-              </option>
-            </select>
+  <div>
+    <v-container class="fill-height">
+      <v-responsive
+        class="align-top mx-auto"
+        max-width="800"
+      >
+        <v-row>
+          <v-col cols="3">
+            <v-select
+              label="Race"
+              v-model="selectedRace"
+              :items="phases.races"
+              :item-title="'titre'"
+              :item-value="'id'"
+            />
+          </v-col>
+          <v-col cols="3">
+            <v-select
+              label="Culture"
+              v-model="selectedCulture"
+              :items="phases.cultures"
+              :item-title="'titre'"
+              :item-value="'id'"
+            />
+          </v-col>
+          <v-col cols="3">
+            <v-select
+              label="Caste"
+              v-model="selectedCaste"
+              :items="phases.castes"
+              :item-title="'titre'"
+              :item-value="'id'"
+            />
+          </v-col>
+          <v-col cols="3">
+            <v-select
+              label="Carriere"
+              v-model="selectedCarriere"
+              :items="phases.carrieres"
+              :item-title="'titre'"
+              :item-value="'id'"
+            />
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col cols="10">
+            <v-text-field name="search" v-model="searchTerm" @keyup="findPhases" placeholder="Entrez un mot à rechercher" />
+          </v-col>
+          <v-col cols="2">
+            <v-btn @click="deleteTerm">Effacer</v-btn>
+          </v-col>
+        </v-row>
+        <v-row class="justify-center">
+          <v-col cols="3">
+            <v-btn @click="generatePDF">Générer le PDF</v-btn>
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col cols="12">
+            <div class="phasesListWrapper" v-for="(phase, key) in searchPhases" :key="key">
+              <PhaseComponent :phase="phase"></PhaseComponent>
+            </div>
+          </v-col>
+        </v-row>
+      </v-responsive>
+    </v-container>
+    <div ref="printZone" class="phasesWrapper">
+      <div class="phasesWrapper2" v-for="(phase, key) in selectedPhases" :key="key">
+        <div  v-if="phase.id">
+          <PhaseComponent :phase="phase"></PhaseComponent>
         </div>
       </div>
-      <div class="selectPhaseWrapper">
-        <label>Culture</label>
-        <div>
-            <select v-model="selectedCulture">
-              <option v-for="culture in phases.cultures" :value="culture.id" :text="culture.titre" :key="culture.id">
-              </option>
-            </select>
-        </div>
-      </div>
-      <div class="selectPhaseWrapper">
-        <label>Caste</label>
-        <div>
-            <select v-model="selectedCaste">
-              <option v-for="caste in phases.castes" :value="caste.id" :text="caste.titre" :key="caste.id">
-                {{ caste.titre }}
-              </option>
-            </select>
-        </div>
-      </div>
-      <div class="selectPhaseWrapper">
-        <label>Carriere</label>
-        <div>
-            <select v-model="selectedCarriere">
-              <option v-for="carriere in phases.carrieres" :value="carriere.id" :text="carriere.titre" :key="carriere.id">
-                {{ carriere.titre }}
-              </option>
-            </select>
-        </div>
-      </div>
-    </div>
-    <div class="buttonsWrapper">
-      <div class="searchWrapper">
-        <input name="search" v-model="searchTerm" @keyup="findPhases" placeholder="Entrez un mot à rechercher">
-        <button @click="deleteTerm">Effacer</button>
-      </div>
-    </div>
-    <br />
-    <div class="buttonsWrapper">
-      <button @click="generatePDF">Générer le PDF</button>
-    </div>
-  </div>
-  <div ref="printZone" class="phasesWrapper">
-    <div class="phasesWrapper2" v-for="(phase, key) in selectedPhases" :key="key">
-      <div  v-if="phase.id">
-        <PhaseComponent :phase="phase"></PhaseComponent>
-      </div>
-    </div>
-  </div>
-  <div class="phasesSearchWrapper">
-    <div class="phasesListWrapper" v-for="(phase, key) in searchPhases" :key="key">
-      <PhaseComponent :phase="phase"></PhaseComponent>
     </div>
   </div>
 </template>
@@ -77,7 +87,6 @@
 .selectPhaseWrapper {
   margin: 10px;
   flex: 1;
-  border: 2px solid;
   padding: 10px;
 }
 .phasesWrapper {
@@ -201,6 +210,7 @@ export default defineComponent ({
     },
     deleteTerm() {
       this.searchTerm = ''
+      this.searchPhases = []
     },
     selectPhase(newValue: string, oldValue: string, phaseMapName: string, phaseName: string) {
 
