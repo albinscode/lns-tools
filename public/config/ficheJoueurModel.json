@@ -1,0 +1,12 @@
+{
+  "infosGenerales": [
+    "nom", "age", "titres", "race", "culture",
+    "caste", "carriere", "niveau_de_vie"
+  ],
+  "caracteristiquesPrincipales": [
+    "carrure", "adresse", "constitution", "perception", "sagacite", "volonte", "attrait"
+  ],
+  "caracteristiquesSecondaires": [
+    "aguerrissement", "education", "statut"
+  ]
+}

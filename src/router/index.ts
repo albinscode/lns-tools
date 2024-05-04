@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import PhaseDisplayView from '../views/PhaseDisplayView.vue'
+import FicheJoueurView from '../views/FicheJoueurView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -12,6 +13,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/',
     name: 'phase',
     component: PhaseDisplayView
+  },
+  {
+    path: '/fiche',
+    name: 'fiche',
+    component: FicheJoueurView
   }
 ]
 

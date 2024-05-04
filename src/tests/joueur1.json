@@ -1,0 +1,56 @@
+{
+  "infosGenerales": {
+    "nom": "MonNom",
+    "age": 45,
+    "titres": "Roi de l'Athara",
+    "race": "Race1",
+    "culture": "Culture1",
+    "caste": "Caste1",
+    "carriere": "Carriere1",
+    "niveau_de_vie": "très riche"
+  },
+  "caracteristiquesPrincipales": {
+    "carrure": {
+      "value": 1,
+      "xp": 0
+    },
+    "adresse": {
+      "value": 2,
+      "xp": 0
+    },
+    "constitution": {
+      "value": 3,
+      "xp": 0
+    },
+    "perception": {
+      "value": 4,
+      "xp": 0
+    },
+    "sagacite": {
+      "value": 5,
+      "xp": 0
+    },
+    "volonte": {
+      "value": 6,
+      "xp": 0
+    },
+    "attrait": {
+      "value": 7,
+      "xp": 0
+    }
+  },
+  "caracteristiquesSecondaires": {
+    "aguerrissement": {
+      "value": 8,
+      "xp": 0
+    },
+    "education": {
+      "value": 9,
+      "xp": 0
+    },
+    "statut": {
+      "value": 10,
+      "xp": 0
+    }
+  }
+}
