@@ -2,7 +2,7 @@
   <div class="home">
     <img alt="LNS logo" src="../assets/lns_sun.png">
     <p>
-      Bienvenue sur la suite d'outils pour le jeu de rôle "Le Nouveau Soleil" à destination des joueurs et maîtres de jeu.
+      Bienvenue sur la suite d'outils pour le jeu de rôle "Légendes du Nouveau Soleil" à destination des joueurs et maîtres de jeu.
     </p>
     <p>
       <a href="https://www.nouveau-soleil.com/" target="_blank" rel="noopener">Site officiel</a>

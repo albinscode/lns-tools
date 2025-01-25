@@ -134,6 +134,51 @@
       "niveau_de_vie": "modeste"
     },
     {
+      "titre": "Fluvial",
+      "id": "fluvial",
+      "soustitre": "Culture,  à partir de NDP 1",
+      "synopsis": "Sur les berges d’un fleuve ou d’un lac, ce personnage a grandi, ou sur le pont d’un navire fluvial, il a longtemps vogué. Enfant des eaux calmes et des courants traîtres tireur de rames et ferleur de voiles, il a rejoint le puissant fleuve Gyoll. C’est sous les coques chargées de richesses que coule l’eau sombre, troublée par le tumulte de Nessus.",
+      "phases_conseillees": [
+        "Race : Humain, Gizaï, Malakar",
+        "Caste : Commun, Optimate, Autochtone, Paria, Serviteur du Trône",
+        "Carrière : Frère juré du Rosaire, Naute, Bandit, Aventurier, Écorcheur, Marchand, Milicien, Venator"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, CST, PER et VLT",
+        "Modulo 1 en ATT",
+        "AGR NDP +6",
+        "EDU NDP +6",
+        "STA +1"
+      ],
+      "competences": [
+        "Art (Chant), Bricolage, Conduite (Bateau), Connaissance (Fleuves), Natation, Navigation, Survie, Vigilance",
+        "Un Artisanat & Métier au choix : Charpenterie, Couture, Forge, Pêche, Cuisine",
+        "Un au choix : Jeu ou Intendance",
+        "Un au choix : Folklore ou Commerce"
+      ],
+      "langages": [
+        "Commun (parlé) 10",
+        "Malpachi (parlé) 6"
+      ],
+      "combat": [
+        "Armement civil",
+        "Armement autochtone",
+        "Armement culturel : gaffe, filet"
+      ],
+      "traits": [
+        "Folklore +NDP (peuples fluviaux)",
+        "VIR –2 contre l’asphyxie (et la noyade)"
+      ],
+      "avantages": [
+        "La Nasse : bonus de +NDP pour lancer un filet et de +NDP dans la VIR Empêtrement de cette arme",
+        "La Pirogue : un au choix parmi ADR +1 ou PER +1",
+        "Le Ragondin : Natation +NDP, Artisanat & Métier (Cuisine) +NDP, Survie +NDP",
+        "La Grume : Bricolage +NDP, Artisanat & Métier (Charpenterie) +NDP, Conduite (Bateau) +NDP"
+      ],
+      "materiel": "Un colifichet religeux dédié à Oannès (dieu des eaux douces), un chapeau en osier",
+      "niveau_de_vie": "pauvre"
+    },
+    {
       "titre": "Glaume",
       "id": "glaume",
       "soustitre": "Culture,  à partir de NDP 1",
@@ -257,6 +302,52 @@
       ],
       "materiel": "Une carte maritime, un peigne en bois fumé",
       "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Littoral",
+      "id": "littoral",
+      "soustitre": "Culture,  à partir de NDP 1",
+      "synopsis": "C’est sur le rivage d’un océan de Teur que ce personnage est né. Seuil périlleux d’un monde à redécouvrir, le littoral, assiégé par le ressac, la tempête et les pirates, insuffle à tous le rêve de la reconquête des continents perdus. À ceux qui oseront s’enrôler à bord d’un navire, la promesse de trésors oubliés, mais aussi la terreur des monstres abyssaux.",
+      "phases_conseillees": [
+        "Race : Humain, Gizaï, Enfant de la nuit",
+        "Caste : Autochtone, Commun, Optimate, Paria",
+        "Carrière : Aventurier, Bandit, Chasseur-guerrier, Écorcheur, Explorateur, Marchand, Pirate"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, CST, PER et ATT",
+        "AGR NDP +7",
+        "EDU NDP +6",
+        "STA +1"
+      ],
+      "competences": [
+        "Conduite (Bateau), Connaissance (Littoral), Folklore, Jeu, Natation, Navigation, Terres externes",
+        "Un au choix : Artisanat & Métier ou Commerce",
+        "Un au choix : Vigilance ou Théologie",
+        "Un au choix : Escalade ou Faune",
+        "Un au choix : Bricolage ou Orientation"
+      ],
+      "langages": [
+        "Commun (parlé) 10 Un au choix :",
+        "Malpachi (parlé) 6",
+        "Xanthique (parlé) 6"
+      ],
+      "combat": [
+        "Armement civil",
+        "Armement autochtone",
+        "Armement culturel : gaffe, hakapik, harpon à baleine, filet"
+      ],
+      "traits": [
+        "Relance Navigation une fois par partie"
+      ],
+      "avantages": [
+        "La Déferlante : Natation +NDP, Esquive +NDP, Vigilance +NDP",
+        "L’Embrun : ATT +1",
+        "La Conque : Stratégie +NDP, Intimidation +NDP, Survie +NDP",
+        "La Rafale : DPL +1, Initiative +1",
+        "Le Butin : jeter 1D100 sur la Table des trésors (p. 330)"
+      ],
+      "materiel": "Un bandana, des sandales, un collier avec trois coquillages",
+      "niveau_de_vie": "pauvre"
     },
     {
       "titre": "Manoir Absolu",
@@ -1588,6 +1679,52 @@
       ],
       "materiel": "Des vêtements ordinaires, une besace, un nécessaire de toilette, des friandises au poisson",
       "niveau_de_vie": "modeste"
+    },
+    {
+      "titre": "Sauride",
+      "id": "sauride",
+      "soustitre": "Race,  à partir de NDP 2",
+      "synopsis": "Ce personnage descend d’esclaves ayant fui le joug cruel des castes sexuées du peuple Danseur de guerre. Enfant d’un clan de Saurides adaptés à la vie sur Teur, il est un humanoïde d’apparence reptilienne. Suivant la nature de son espèce, il démontre un instinct farouche et un goût pour l’art, et conserve le souvenir traumatique du Grand Exil.",
+      "phases_conseillees": [
+        "Culture : Littoral, Montagnes, Jungle, Nomade, Sauvage, Tribal, Ville morte, Athara",
+        "Caste : Paria, Autochtone",
+        "Carrière : Aventurier, Bandit, Chasseur-guerrier, Écorcheur, Gladiateur, Marchand, Mercenaire, Rhapsode, Survivant, Thaumaturge"
+      ],
+      "caracteristiques": [
+        "Bonus parmi CAR, ADR, CST, SGC et VLT",
+        "AGR NDP +12",
+        "ED U NDP +6",
+        "STA +0"
+      ],
+      "competences": [
+        "Connaissance (un biome au choix), Escalade, Faune, Furtivité, Intimidation, Survie, Vigilance",
+        "Un au choix : un Art ou un Artisanat & Métier",
+        "Un au choix : Terres externes ou Dressage",
+        "Un au choix : une Thaumaturgie ou Orientation",
+        "Un au choix : Premiers soins ou Décorum",
+        "Un au choix : Histoire ou Stratégie"
+      ],
+      "langages": [
+        "Farkhan (parlé, lu & écrit) 10 Langue dérivée de la langue originelle des Danseurs de guerre",
+        "Commun (parlé) 10",
+        "Malpachi (parlé) 6"
+      ],
+      "combat": [
+        "Armement autochtone",
+        "Armement post-apo"
+      ],
+      "traits": [
+        "RES +1 (peau écailleuse)",
+        "Relance Escalade une fois par partie"
+      ],
+      "avantages": [
+        "La Voie d’Arighal : RES +1, BDG de C.-à-C. +1",
+        "La Voie de Garakaï : Furtivité +1, BDG de Distance +1",
+        "La Voie d’Alarak : Bénéficie toujours d’un bonus de +5 dans une Aptitude unique (au choix) pour s’exprimer artistiquement",
+        "La Voie de Kishaha : une compétence d’arme stellaire de corpsà-corps de catégorie A à +NDP et possession de cette arme"
+      ],
+      "materiel": "Des vêtements ordinaires, un pendentif de son clan",
+      "niveau_de_vie": "pauvre"
     }
   ],
   "carrieres": [
@@ -1674,6 +1811,51 @@
       ],
       "materiel": "Des documents officiels et un sceau, un nécessaire de campement et un supplément (au choix), 15 m de corde et un grappin, une pèlerine chaude, des outils d’excavation, un carnet de notes, un nécessaire d’écriture, une longuevue, une carte de la Communauté, une boussole",
       "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Agent du Mantel",
+      "id": "agent_du_mantel",
+      "soustitre": "Carrière,  à partir de NDP 2",
+      "synopsis": "On dit que l’argent est le nerf de la guerre. Issu d’une sélection drastique à la Tour des Orfèvres, ce personnage guildaire vit l’existence grisante et dangereuse d’un Agent spécial du Mantel, un véritable « assassin économique » qu frappe au cœur la fortune des ennemis de l’Autarque. Sa mission est donc de les tuer… sans faire couler leur sang",
+      "phases_conseillees": [
+        "Race : Humain",
+        "Culture : Manoir Absolu, Nessus et autres cités",
+        "Caste : Serviteur du Trône"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC, VLT et ATT",
+        "AGR NDP +6",
+        "EDU NDP +11",
+        "STA +2"
+      ],
+      "competences": [
+        "Admin. & Lois, Commerce, Cryptologie, Décorum, Déguisement, Falsification, Folklore, Intendance, Perspicacité",
+        "Un au choix : Effraction ou Furtivité",
+        "Un au choix : Fouille ou Bibliothèque",
+        "Un au choix : Persuasion, Séduction ou Tromperie",
+        "Un au choix : Jeu, Art (Danse) ou Art (Mode)"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 14",
+        "Langue morte (parlé, lu & écrit) 10 Un au choix :",
+        "Malpachi (parlé) 10",
+        "Narquois (parlé) 6",
+        "Xanthique (parlé, lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil",
+        "Une arme stellaire de catégorie A ou un disrupteur neural furtif (voir p. 97 du Livre de règles)"
+      ],
+      "traits": [
+        "Relance une compétence d’expression une fois par partie"
+      ],
+      "avantages": [
+        "Le Cosmopolite : Art (Mode) +NDP, Danse +NDP, Séduction +NDP",
+        "Le Bellâtre : ATT +1",
+        "L’Aigrefin : Tromperie +2×NDP, Commerce +NDP"
+      ],
+      "materiel": "Des documents officiels (falsifiés, pour les détecter Difficile –9), un nécessaire d’écriture et de falsification, un cylindre de cryptage, un nécessaire de déguisement (deux costumes préparés au choix), une tenue de soirée, un flacon de parfum, une paire de jumelles de théâtre",
+      "niveau_de_vie": "aisé"
     },
     {
       "titre": "Aquilon",
@@ -2228,6 +2410,52 @@
       "niveau_de_vie": "moyen"
     },
     {
+      "titre": "Conservateur",
+      "id": "conservateur",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Ce personnage transmet au futur ce qui vient du passé, luttant contre l’érosion du temps. Gardienne de tous les savoirs, sa Guilde tantôt cèle, tantôt dévoile l’immensité de l’héritage humain. Ayant longuement étudié son art en des lieux secrets et silencieux, ce personnage sait que, contrairement à l’Homme, Nessus n’oublie jamais.",
+      "phases_conseillees": [
+        "Race : Humain",
+        "Culture : Nessus et autres cités",
+        "Caste : Serviteur du Trône"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR et SGC",
+        "AGR NDP +4",
+        "EDU NDP +14",
+        "STA +3"
+      ],
+      "competences": [
+        "Bibliothèque, Cryptologie, Folklore, Histoire, Intendance, Théologie",
+        "Une Connaissance au choix",
+        "Un au choix : Fouille ou une Thaumaturgie",
+        "Un au choix : Faune ou Décorum",
+        "Un au choix : Artisanat & Métier (Reliure) ou Terres externes",
+        "Un au choix : un Art ou Flore"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Un au choix :",
+        "Malpachi (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 6",
+        "Xanthique (parlé, lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Bonus de +9 pour trouver une information ou un objet précis une fois par partie"
+      ],
+      "avantages": [
+        "La Relique : possède une bague antique donnant ATT +2, seulement quand portée au doigt",
+        "L’Incunable : relance Bibliothèque ou Histoire une fois par partie",
+        "La Découverte : Fouille +NDP, Histoire +NDP, Occultation +NDP",
+        "La Renaissance : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne la restauration d’objets d’art ou d’artisanat seulement (voir page 291)"
+      ],
+      "materiel": "Des documents officiels et un sceau, l’uniforme de sa Guilde, les outils nécessaires à son art, une loupe de lecture, un nécessaire d’écriture, un étui à document en cuir étanche, une lanterne",
+      "niveau_de_vie": "modeste"
+    },
+    {
       "titre": "Écorcheur",
       "id": "corcheur",
       "soustitre": "Carrière,  à partir de NDP 1",
@@ -2352,6 +2580,85 @@
       ],
       "materiel": "Des vêtements de luxe, un portefeuille de cuir fin, un flacon de parfum, un nécessaire d’écriture, des cartes de visite, des cartes de membre de clubs privés, un masque, des jumelles de théâtre, une automotive, des bijoux, de quoi pratiquer un art",
       "niveau_de_vie": "riche"
+    },
+    {
+      "titre": "Dimarque",
+      "id": "dimarque",
+      "soustitre": "Carrière,  à partir de NDP 2",
+      "synopsis": "Adepte, comme ses frères d’armes, de deux tactiques de combat – monté ou à pied –, ce Dimarque est un cavalier expérimenté aux ordres d’un Archonte ou d’un officiel local. Revêtu d’une cuirasse laquée, il est incorporé dans une Xénagie de Nessus, Cité parfois secouée de vives révoltes qu’il a l’ordre de réprimer. Servira-t-il toujours l’Autarque ?",
+      "phases_conseillees": [
+        "Race : Humain",
+        "Culture : Nessus et autres cités, Montagnard, Campagne, Militaire, Pionnier",
+        "Caste : Commun, Armiger, Escudier"
+      ],
+      "caracteristiques": [
+        "Bonus parmi CAR, ADR et PER",
+        "AGR NDP +10",
+        "EDU NDP +7",
+        "STA +2"
+      ],
+      "competences": [
+        "Admin. & Lois, Bricolage, Conduite (Monture), Dressage, Enquête, Folklore, Intimidation, Jeu, Orientation, Perspicacité, Premiers soins, Stratégie, Vigilance"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 10",
+        "Malpachi (parlé) 6",
+        "Signes du voyage (lu & écrit) 2"
+      ],
+      "combat": [
+        "Armement légionnaire",
+        "Armement culturel : sabre, bouclier, abro, contus, kapal"
+      ],
+      "traits": [
+        "Relance Conduite (Monture) une fois par partie"
+      ],
+      "avantages": [
+        "L’Éperon : Conduite (Monture) +NDP, Dressage +NDP, Esquive +NDP",
+        "La Visière : Compétence de carabine Kapal +NDP, Vigilance +NDP, Orientation +NDP",
+        "Le Harnachement : DPL +3 pour sa monture principale",
+        "La Moustache : Décorum +NDP, Séduction +NDP, Intimidation +NDP"
+      ],
+      "materiel": "Des documents officiels, une cuirasse rouge laquée et son casque (PTC 10), une targe (2 PTC), une pèlerine adaptée au climat local, un nécessaire de campement avec un supplément (au choix), une monture et son harnachement, une pipe et du tabac",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Dramaturge",
+      "id": "dramaturge",
+      "soustitre": "Carrière,  à partir de NDP 2",
+      "synopsis": "Membre de la Tour des Symboles, Guilde des arts dramatiques qui conte la légende des siècles et divertit la population, cet acteur de théâtre observe également les mœurs et opinions de son audience. D’abord dramaturge ou tragédien, il se fait comédien lorsque vient le temps de la légèreté… tout en demeurant un agent de renseignement.",
+      "phases_conseillees": [
+        "Race : Humain, Paracas",
+        "Culture : Nessus et autres cités, Manoir Absolu",
+        "Caste : Serviteur du Trône"
+      ],
+      "caracteristiques": [
+        "Bonus parmi SGC, VLT et ATT",
+        "AGR NDP +3",
+        "EDU NDP +12",
+        "STA +4"
+      ],
+      "competences": [
+        "Art (Danse), Art (Théâtre), Connaissance (Guildes), Décorum, Déguisement, Folklore, Histoire, Perspicacité, Persuasion, Théologie",
+        "Un au choix : Tromperie ou Artisanat & Métier (Couture)"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14"
+      ],
+      "combat": [
+        "Armement civil",
+        "Armement culturel : canne ferrée"
+      ],
+      "traits": [
+        "Relance une compétence d’Expression une fois par partie"
+      ],
+      "avantages": [
+        "Le Troupier : Conduite (Attelage) +NDP, Survie +NDP, Connaissance (Routes) +NDP",
+        "L’Accessoiriste : deux compétences d’armes (pistolet runkas et canne-épée) à +NDP chacune et possession de ces armes",
+        "Le Transformiste : possède une mallette de déguisement octroyant +2×NDP en Déguisement ainsi que 3 costumes préparés au choix (améliore la mallette normale ci-dessous)"
+      ],
+      "materiel": "Des documents officiels, une bague sigillaire, un costume de scène, une pèlerine, une mallette contenant maquillage et accessoires de déguisement, de quoi écrire, un miroir de poche, un livre de théâtre populaire",
+      "niveau_de_vie": "modeste"
     },
     {
       "titre": "Espion",
@@ -2663,6 +2970,48 @@
       "niveau_de_vie": "modeste"
     },
     {
+      "titre": "Galochin",
+      "id": "galochin",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Sillonnant cahin-caha les rues de Nessus ou les routes de la Communauté à bord de sa roulotte, ce personnage fait partie d’une troupe de théâtre populaire burlesque et musical. Loin des principes du Bien et du Mal dont il joue sur scène, son quotidien difficile peut l’amener à naviguer entre les lumières de la scène et les ombres de la nuit.",
+      "phases_conseillees": [
+        "Race : Humain, Paracas, Gizaï",
+        "Culture : Nessus et autres cités, Campagne, Éclectique, Xanthique, Nomade, Montagnard, Fluvial, Littoral",
+        "Caste : Optimate, Commun, Autochtone, Escudier, Paria"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, CST, VLT et ATT",
+        "AGR NDP +5",
+        "EDU NDP +8",
+        "STA +2"
+      ],
+      "competences": [
+        "Art (Comédie), Artisanat & Métier (Régie), Déguisement, Folklore, Orientation, Perspicacité, Survie",
+        "Un au choix : Art (Chant), Art (Danse), Art (Musique), Art (Pantomime) ou Art (Poésie)",
+        "Un au choix : Bricolage, Dressage ou Conduite (Attelage)"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 10",
+        "Malpachi (parlé) 6",
+        "Signes du voyage (lu & écrit) 6"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance Déguisement une fois par partie"
+      ],
+      "avantages": [
+        "La Tronche : Histoire +NDP, Décorum +NDP, Théologie +NDP",
+        "La Veine : CHC +1, Vigilance +NDP, Jeu +NDP",
+        "La Gueule : Commerce +NDP, Intendance +NDP, Persuasion +NDP",
+        "La Paluche : Escamotage +NDP, Effraction +NDP, Furtivité +NDP",
+        "La Gigue : Escalade +NDP, Glisse +NDP, Natation +NDP"
+      ],
+      "materiel": "Des documents de voyage (falsifiés ou non), une pèlerine chaude, un nécessaire de campement et un supplément au choix, un livre de contes, de fables et d’historiettes, une trousse de maquillage, un jeu de cartes ou des dés",
+      "niveau_de_vie": "modeste"
+    },
+    {
       "titre": "Gardien",
       "id": "gardien",
       "soustitre": "Carrière,  à partir de NDP 2",
@@ -2747,6 +3096,93 @@
       "niveau_de_vie": "moyen\nLorsqu’il est semi-libre, son patrimoine est géré par son\nmaître, qui peut se montrer plus ou moins généreux"
     },
     {
+      "titre": "Glaneur d’ordures",
+      "id": "glaneur_d_ordures",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Les pieds dans la fange, mais le regard porté sur l’horizon, ce personnage arpente les étendues pestilentielles de la Grande Décharge de Nessus. Glaneur parmi d’autres, il doit lutter au quotidien pour survivre de ce dont les citadins ne veulent plus. Mais il sait que, quelque part sous les immondices, se trouve la promesse d’une vie meilleure.",
+      "phases_conseillees": [
+        "Race : Humain, Malakar, Goule1, Homme-porc2",
+        "Culture : Nessus et autres cités, Athara, Ville morte, Glaume, Éclectique",
+        "Caste : Commun, Paria"
+      ],
+      "caracteristiques": [
+        "Bonus parmi CAR, ADR, PER et VLT",
+        "Modulo 2 parmi CST, SGC et ATT",
+        "AGR NDP +7",
+        "EDU NDP +4",
+        "STA +0"
+      ],
+      "competences": [
+        "Commerce, Connaissance (Grande Décharge), Escalade, Fouille, Orientation, Survie, Vigilance",
+        "Un au choix : Intimidation ou Tromperie",
+        "Un au choix : Premiers soins ou Dressage",
+        "Un au choix : un Artisanat & Métier ou Bricolage",
+        "Un au choix : Furtivité ou Conduite (Attelage)"
+      ],
+      "langages": [
+        "Commun (parlé) 10",
+        "Narquois (parlé) 6"
+      ],
+      "combat": [
+        "Armement civil",
+        "Armement post-apo",
+        "Armement culturel : gaffe"
+      ],
+      "traits": [
+        "VIR –1 contre la faim, les maladies et les nourritures dangereuses"
+      ],
+      "avantages": [
+        "L’ordure est d’or : Relance Fouille une fois par partie",
+        "La crasse s’amasse : Artisanat & Métier (au choix) +NDP, Bricolage +NDP, Commerce +NDP",
+        "Gueule de fange : ATT +1 et possession d’un costume de ville tout neuf (récupéré)",
+        "Des bris et des cris : Compétence de gaffe +NDP, Esquive +NDP, Port d’armure +NDP"
+      ],
+      "materiel": "Des habits de travail (chapeau, gants, salopette, bottes, cache-nez), un grand sac de toile, une lanterne, de quoi faire du feu, quelques longueurs de ficelle, des outils de tri et de décorticage (crochet, pince, marteau, pied-de-biche, etc.)",
+      "niveau_de_vie": "miséreux"
+    },
+    {
+      "titre": "Justicier du Rosaire",
+      "id": "justicier_du_rosaire",
+      "soustitre": "Carrière,  à partir de NDP 3",
+      "synopsis": "Ce Frère juré du Rosaire, détaché des obligations qui le lient à sa Famille, exécute les décisions de la Coupole. C’est sur verdict des Gardiens de la Tradition que le Justicier recherche, appréhende et châtie les condamnés. Arborant tatouage d’un homme à l’épée, il détruit sans haine et frappe sans pitié ceux qui ont porté atteinte au Code d’honneur.",
+      "phases_conseillees": [
+        "Race : Humain",
+        "Culture : Nessus, Glaume, Campagne, Athara, autres cités",
+        "Caste : Commun, Paria"
+      ],
+      "caracteristiques": [
+        "Bonus parmi CAR, ADR, CST et PER",
+        "AGR NDP +10",
+        "EDU NDP +8",
+        "STA +3"
+      ],
+      "competences": [
+        "Admin. & Lois, Connaissance (Pègre), Cryptologie, Effraction, Enquête, Folklore, Perspicacité, Stratégie, Vigilance",
+        "Un au choix : Intimidation ou Furtivité",
+        "Un au choix : Escalade ou Théologie",
+        "Un au choix : Décorum ou Déguisement"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 14",
+        "Narquois (parlé) 10",
+        "Langue Morte (parlé, lu & écrit) 6"
+      ],
+      "combat": [
+        "Armement civil",
+        "Armement légionnaire"
+      ],
+      "traits": [
+        "Relance Connaissance (Pègre) une fois par partie"
+      ],
+      "avantages": [
+        "Le Coup de grâce : une fois par partie, sur une cible dotée de la moitié ou moins de ses PVI, inflige des DGT aggravés × 1",
+        "Le Marchand de sable : inflige des DGT aggravés × 2 sur une cible endormie",
+        "Le Perce-cœur : accroît le bonus acquis en visant de +2 CMP/PAC à +3 CMP/PAC (au C.-à-C. comme à distance)"
+      ],
+      "materiel": "Une pèlerine réversible, un masque, un pied-de-biche, une lanterne sourde, 5 m de corde avec un grappin, un bâillon, un miroir de poche",
+      "niveau_de_vie": "moyen"
+    },
+    {
       "titre": "Main des Gueux",
       "id": "main_des_gueux",
       "soustitre": "Carrière,  à partir de NDP 1",
@@ -2788,6 +3224,49 @@
       ],
       "materiel": "Une tasse en fer blanc, un pochon de drogue à fumer, un baluchon avec une bouteille d’alcool et un pain, un surin coupe-bourse, une pèlerine usée, un tabouret",
       "niveau_de_vie": "pauvre"
+    },
+    {
+      "titre": "Makchiriste",
+      "id": "makchiriste",
+      "soustitre": "Carrière,  à partir de NDP 2",
+      "synopsis": "Adepte de la phasis, ce personnage détient un fragment de ce que fut la puissance des Anciens. Capable de déclencher par la pensée les pouvoirs de ces appareils millénaires, i est le magicien de l’époque de la Communauté. Ni bons, n mauvais, les makchirs sont des outils entre les mains de leur maître, à qui seul revient le choix du bien ou du mal.",
+      "phases_conseillees": [
+        "Race : Humain, Agamite, Enfant de la nuit, Gizaï, Automate",
+        "Culture : Nessus, Manoir Absolu, Athara, Ville Morte, Nomade",
+        "Caste : Commun, Exulte, Paria, Autochtone, Escudier"
+      ],
+      "caracteristiques": [
+        "Bonus parmi CST, PER, SGC et VLT",
+        "Modulo 1 en CAR",
+        "AGR NDP +6",
+        "EDU NDP +9",
+        "STA +4"
+      ],
+      "competences": [
+        "Phasis (une par makchir)",
+        "Bibliothèque, Survie, Tromperie, Vigilance",
+        "Un au choix : Adæmonition ou Furtivité",
+        "Un au choix : Déguisement ou Histoire",
+        "Un au choix : Fouille ou Perspicacité"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 10",
+        "Langue morte (parlé, lu & écrit) 6"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance VLT une fois par partie"
+      ],
+      "avantages": [
+        "Psychisme puissant : Bonus de NDP en PVR",
+        "Énergie hélianthe : Bonus d’un tiers en RDR de PVR",
+        "Âme d’acier : VLT+1",
+        "Flux de force : Dépense max. de PVR/action +1"
+      ],
+      "materiel": "Une pèlerine, un nécessaire d’écriture, une bourse en cuir solide, des somnifères pour une lune",
+      "niveau_de_vie": "modeste"
     },
     {
       "titre": "Marchand",
@@ -3128,6 +3607,48 @@
       "niveau_de_vie": "moyen"
     },
     {
+      "titre": "Rédempteur",
+      "id": "r_dempteur",
+      "soustitre": "Carrière,  à partir de NDP 3",
+      "synopsis": "Spécialiste de la négociation, ce personnage a choisi la voie du courtier en rançon. Son rôle exigeant l’amène à racheter la vie de captifs rançonnés pour le compte de leurs proches éplorés. Présence rationnelle au cœur de la tourmente, il se donne pour mission de donner une chance à la vie tout en épargnant, si possible, la ruine à ses clients.",
+      "phases_conseillees": [
+        "Race : Humain",
+        "Culture : Nessus et autres cités, Manoir Absolu",
+        "Caste : Optimate, Escudier, Commun"
+      ],
+      "caracteristiques": [
+        "Bonus parmi SGC et VLT",
+        "AGR NDP +8",
+        "EDU NDP +12",
+        "STA +3"
+      ],
+      "competences": [
+        "Admin. & Lois, Commerce, Connaissance (Pègre), Décorum, Folklore, Persuasion, Perspicacité, Tromperie",
+        "Une conduite au choix",
+        "Un au choix : Furtivité, Falsification ou Cryptologie",
+        "Un au choix : Vigilance ou Histoire"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 14 Un au choix :",
+        "Malpachi (parlé) 10",
+        "Narquois (parlé) 6"
+      ],
+      "combat": [
+        "Armement civil",
+        "Armement culturel : canne-épée, pistolet à poudre, disrupteur neural (cat. A, non létal)"
+      ],
+      "traits": [
+        "Relance Persuasion une fois par partie"
+      ],
+      "avantages": [
+        "La Détermination : Orientation +NDP, Furtivité +NDP, Vigilance +NDP",
+        "La Proposition : VIR –1 contre le sommeil, Persuasion +NDP, Perspicacité +NDP",
+        "L’Élucidation : Connaissance (Pègre) +NDP, Enquête +NDP, Arquémie +NDP"
+      ],
+      "materiel": "Des documents officiels et un sceau, un porte-documents en cuir, une montre mécanique fiable, une paire de besicles, une valisette de voyage, une trousse de toilette, un nécessaire d’écriture, un abonnement aux Coches noirs",
+      "niveau_de_vie": "aisé"
+    },
+    {
       "titre": "Rhapsode",
       "id": "rhapsode",
       "soustitre": "Carrière,  à partir de NDP 1",
@@ -3383,6 +3904,212 @@
       ],
       "materiel": "Des documents officiels et un sceau, l’uniforme de sa Guilde une trousse de soins vétérinaires, des friandises pour animal, une muselière, une laisse, un sifflet ou claquoir",
       "niveau_de_vie": "modeste"
+    },
+    {
+      "titre": "Éternel",
+      "id": "ternel",
+      "soustitre": "Carrière,  à partir de NDP 3",
+      "synopsis": "D’un âge immémorial, la Garde éternelle veille sur le sommeil des périls des temps anciens. Ce membre de la Garde sait que, privée de son créateur et guide de toujours, cette Faction détentrice de lourds secrets risque de précipiter Teur dans le chaos. Du maintien des traditions à la rupture des interdits, quel chemin empruntera cet Éternel?",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Gizaï, Enfant de la nuit, Minotaure",
+        "Culture : Nessus et autres cités, Pionnier, Manoir Absolu, Athara",
+        "Caste : Commun, Optimate, Exulte, Anachorète, Escudier"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, PER, SGC et VLT",
+        "AGR NDP +10",
+        "EDU NDP +12",
+        "STA +3"
+      ],
+      "competences": [
+        "Bibliothèque, une Conduite au choix, Cryptologie, Falsification, Folklore, Furtivité, Histoire, Occultation, Vigilance",
+        "Un au choix : Déguisement, Décorum ou Orientation",
+        "Un au choix : Fouille, Effraction ou Premiers soins",
+        "Un au choix : Persuasion, Tromperie ou Intimidation",
+        "Un au choix : Théologie, Terres externes ou une Thaumaturgie"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 18 Un au choix :",
+        "Malpachi (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Langue de l’Aube (parlé) 2"
+      ],
+      "combat": [
+        "Armement civil",
+        "Un disrupteur neural (voir p. 97). Recommandé : Amnésie, Fuite, Sommeil, Suggestibilité",
+        "Une arme stellaire de catégorie A ou B"
+      ],
+      "traits": [
+        "Relance Bibliothèque ou Occultation une fois par partie"
+      ],
+      "avantages": [
+        "Le Sanctuaire défendu : Bibliothèque +NDP, Adæmonition +NDP, Histoire +NDP",
+        "Le Puits d’ombre : Déguisement +NDP, Tromperie +NDP, Furtivité +NDP",
+        "La Tour de garde : compétence d’arme stellaire +NDP, cette arme passe en catégorie C, Furtivité +NDP",
+        "Le Portail immuable : Occultation +NDP, Effraction +NDP, Mécanologie +NDP"
+      ],
+      "materiel": "Un nécessaire d’écriture et de falsification, un cylindre de cryptage, un nécessaire de déguisement (un costume préparé au choix), une lampe fulgurique, un kit de crochetage, une montre à gousset, un abonnement aux Coches noirs",
+      "niveau_de_vie": "aisé"
+    },
+    {
+      "titre": "Thanatopracteur",
+      "id": "thanatopracteur",
+      "soustitre": "Carrière,  à partir de NDP 2",
+      "synopsis": "Dans la tradition des cérémonies mortuaires de la Communauté, le membre de la Guilde de Saint-Loreto accompagne le défunt dans son dernier voyage. Cet Officiant mène à bien les obsèques du mort, permettant à son âme de quitter paisiblement la dépouille. Il sait que nous sommes poussière et, qu'à la poussière, nous retournerons.",
+      "phases_conseillees": [
+        "Race : Humain",
+        "Culture : Nessus et autres cités, Manoir Absolu, Glaume",
+        "Caste : Serviteur du Trône"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "Modulo 1 parmi CST et ATT",
+        "AGR NDP +5",
+        "EDU NDP +12",
+        "STA +3"
+      ],
+      "competences": [
+        "Admin. & Lois, Arquémie, Artisanat & Métier (Embaumement), Bibliothèque, Connaissance (Guildes), Décorum, Folklore, Histoire, Médecine, Théologie",
+        "Un au choix : Conduite (Attelages) ou Occultation"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 14",
+        "Langue morte (parlé, lu & écrit) 14"
+      ],
+      "combat": [
+        "Armement civil",
+        "Armement culturel : scie à os (1D4 DGT)"
+      ],
+      "traits": [
+        "VIR –3 contre le Choc mental"
+      ],
+      "avantages": [
+        "Le Rite du feu : Connaissance (Armigers) +NDP, CAR +1",
+        "Le Rite de l’air : Connaissance (Autochtones) +NDP, Faune +NDP, Folklore +NDP",
+        "Le Rite de la terre : Connaissance (Athara) +NDP, Orientation +NDP, Occultation +NDP",
+        "Le Rite de l’éther : Connaissance (Exultes) +NDP, Histoire +NDP, Théologie +NDP"
+      ],
+      "materiel": "Des documents officiels, une bague sigillaire, la tunique pourpre de sa Guilde, une pèlerine, un masque blanc avec filtres respiratoires (mauvaises odeurs et vapeurs nocives), une sacoche d’embaumeur avec instruments de dissection, produits et baumes divers, un pendentif en forme de sablier (Abraxas) et un petit livre de psaumes",
+      "niveau_de_vie": "modeste"
+    },
+    {
+      "titre": "Thaumaturge",
+      "id": "thaumaturge",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Paracas, Enfant de la nuit",
+        "Culture : Nessus, autres cités",
+        "Caste : Commun, Optimate, Armiger, Exulte, Cénobite"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "AGR NDP+3",
+        "EDU NDP+13",
+        "STA +4"
+      ],
+      "competences": [
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie en gras italique pour obtenir son doctorat et 14 CMP dans une autre en gras (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Adæmoniteur</u>",
+        "Adæmonition, Admin. & Lois, Cryptologie, Histoire, Vigilance",
+        "Un au choix : Décorum ou Jeu",
+        "Un au choix : Intimidation, Persuasion, Séduction ou Tromperie",
+        "Un au choix : Sciences formelles ou Stellartech <br/><u>Arquémiste</u>",
+        "Arquémie, Cryptologie, Histoire, Intendance, Terres externes, Théologie",
+        "Un au choix : Faune ou Flore",
+        "Un au choix : Bioscience ou Physique <br/><u>Bioscientifique</u>",
+        "Bioscience, Conduite, Folklore, Persuasion, Perspicacité,",
+        "Un au choix : Faune ou Flore",
+        "Un au choix : Génétique ou Arquémie <br/><u>Chimériste</u>",
+        "Admin. & Lois, Faune, Flore, Folklore, Génétique, Histoire, Terres externes",
+        "Un au choix : Bioscience ou Arquémie <br/><u>Infiniticien</u>",
+        "Cryptologie, Histoire, Perspicacité, Persuasion, Physique",
+        "Un au choix : Art (Peinture), Art (Musique), Art (Poésie) ou Art (Sculpture)",
+        "Un au choix : Jeu ou Stratégie",
+        "Un au choix : Adæmonition ou Sciences formelles <br/><u>Occulteur</u>",
+        "Cryptologie, Décorum, Fouille, Occultation",
+        "Un Artisanat & Métier au choix : Ébénisterie, Ferronnerie ou Maçonnerie",
+        "Un au choix : Art (Peinture) ou Art (Sculpture)",
+        "Un au choix : Histoire ou Folklore <br/><u>Médecin</u>",
+        "Décorum, Flore, Histoire, Intendance, Médecine, Perspicacité, Persuasion",
+        "Un au choix : Bioscience ou Génétique <br/><u>Mécanurge</u>",
+        "Bricolage, Commerce, Conduite (Automotive), Fouille, Histoire, Mécanologie",
+        "Un Artisanat & Métier au choix",
+        "Un au choix : Arquémie ou Fulgurique <br/><u>Technologue</u>",
+        "Artisanat & Métier (Appareils mécanofulguriques), Artisanat & Métier (Effets spéciaux), Bricolage, Conduite (Monture, Attelage ou Automotive), Cryptologie, Fulgurique, Intendance",
+        "Un au choix : Mécanologie ou Stellartech <br/><u>Xénologue</u>",
+        "Bricolage, Connaissance (Outre-Ciel), Stellartech, Terres externes",
+        "Un au choix : Admin. & Lois ou Histoire",
+        "Un au choix : Faune ou Flore",
+        "Un au choix : Décorum ou Fouille",
+        "Un au choix : Génétique ou Physique"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance une Thaumaturgie une fois par partie"
+      ],
+      "avantages": [
+        "Le Faiseur : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne les recherches thaumaturgiques seulement (voir page 291)",
+        "Le Docte : Bibliothèque +NDP, une Thaumaturgie +2×NDP",
+        "Les Savants rayonnages : possède une petite bibliothèque d’ouvrages de référence à propos de deux Thaumaturgies. Lui octroie dans chacune de ces disciplines un bonus de +2×NDP lorsqu’il en a la disposition",
+        "Le Puits de science : EDU +1",
+        "Le Symposium : Persuasion +2×NDP, Décorum +NDP",
+        "La Sommité : STA +3 (dans une Université)"
+      ],
+      "materiel": "Des documents officiels et un sceau, une tenue adaptée à sa spécialité, une paire de bésicles, les clés de son laboratoire, une sacoche de matériel pour exercer chaque thaumaturgie connue, un nécessaire d’écriture, un mémento savant, un abonnement à la Grande Bibliothèque de Nessus",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Turquin",
+      "id": "turquin",
+      "soustitre": "Carrière,  à partir de NDP 2",
+      "synopsis": "Spécialement mandaté par un tribunal militaire, ce chasseur d’hommes sillonne les monts et les vaux de la Communauté à la recherche de déserteurs, d’Armigers félons ou de bandits très dangereux. Il doit souvent mesurer sa détermination à celle de ses cibles coriaces, parfois retranchées dans des contrées éloignées de Nessus.",
+      "phases_conseillees": [
+        "Race : Humain",
+        "Culture : Nessus et autres cités, Campagne, Militaire, Pionnier, Montagnard",
+        "Caste : Commun, Armiger, Escudier, Optimate"
+      ],
+      "caracteristiques": [
+        "Bonus parmi CAR, ADR, PER et VLT",
+        "AGR NDP +11",
+        "EDU NDP +8",
+        "STA +2"
+      ],
+      "competences": [
+        "Admin. & Lois, Conduite (monture), Enquête, Folklore, Furtivité, Intimidation, Orientation, Perspicacité, Survie, Vigilance",
+        "Un au choix : Escalade, Glisse ou Natation",
+        "Un au choix : Premiers soins ou Connaissance (un biome au choix)"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 10 Un au choix :",
+        "Malpachi (parlé) 10",
+        "Narquois (parlé) 10"
+      ],
+      "combat": [
+        "Armement citoyen",
+        "Armement culturel : épée de pionnier, bouclier, korsek, filet, bolas"
+      ],
+      "traits": [
+        "VIR –1 contre le froid, la chaleur et la faim"
+      ],
+      "avantages": [
+        "L’Éclaireur : Conduite (monture) +NDP, Survie +NDP, Orientation +NDP",
+        "Le Tireur : Furtivité +NDP, Escalade +NDP, Vigilance +NDP",
+        "Le Flanqueur : Perspicacité +NDP, Stratégie +NDP, Tromperie +NDP",
+        "Le Fonceur : DPL +1, Intimidation +NDP"
+      ],
+      "materiel": "Des documents officiels et un sceau, l’uniforme turquoise de sa fonction, un nécessaire de campement et un supplément au choix, une monture, deux paires de manacles, une paire de jumelles, une pèlerine chaude et une pipe avec son tabac",
+      "niveau_de_vie": "moyen"
     },
     {
       "titre": "Venator",

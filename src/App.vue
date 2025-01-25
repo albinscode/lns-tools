@@ -3,8 +3,8 @@
     <v-main>
       <nav>
         <router-link to="/"><span class="text-h3">Phases</span></router-link> |&nbsp;
-        <router-link to="/home"><span class="text-h3">Home</span></router-link> |&nbsp;
-        <router-link to="/fiche"><span class="text-h3">Fiche</span></router-link>
+        <router-link to="/home"><span class="text-h3">Home</span></router-link> <!--|&nbsp;-->
+        <!--<router-link to="/fiche"><span class="text-h3">Fiche</span></router-link>-->
       </nav>
   <router-view/>
 

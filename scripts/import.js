@@ -120,6 +120,8 @@ function snake_case_string(str) {
 // input
 function fixFile(data) {
 
+    // remove all ^L caracters
+    data = data.replace(/\x0C/g, '');
     // we replace any additionnal line between "header" and "content" check that lines
     data = data.replaceAll(`${SYNOPSIS}\n\n`, `${SYNOPSIS}\n`)
     data = data.replaceAll(`${PHASES_CONSEILLEES}\n\n`, `${PHASES_CONSEILLEES}\n`)
@@ -137,6 +139,20 @@ function fixFile(data) {
     data = data.replaceAll(`\n${PHASE_CASTE}`, `\n\n${PHASE_CASTE}\n`)
     data = data.replaceAll(`\n${PHASE_CARRIERE}`, `\n\n${PHASE_CARRIERE}\n`)
 
+    // fix for thaumaturge
+    data = data.replaceAll(`\nAdæmoniteur\n\n`, `<br/><u>Adæmoniteur</u>\n`)
+    data = data.replaceAll(`\nArquémiste\n\n`, `<br/><u>Arquémiste</u>\n`)
+    data = data.replaceAll(`\nBioscientifique\n\n`, `<br/><u>Bioscientifique</u>\n`)
+    data = data.replaceAll(`\nChimériste\n\n`, `<br/><u>Chimériste</u>\n`)
+    data = data.replaceAll(`\nInfiniticien\n\n`, `<br/><u>Infiniticien</u>\n`)
+    data = data.replaceAll(`\nOcculteur\n\n`, `<br/><u>Occulteur</u>\n`)
+    data = data.replaceAll(`\nMédecin\n\n`, `<br/><u>Médecin</u>\n`)
+    data = data.replaceAll(`\nMécanurge\n\n`, `<br/><u>Mécanurge</u>\n`)
+    data = data.replaceAll(`\nTechnologue\n\n`, `<br/><u>Technologue</u>\n`)
+    data = data.replaceAll(`\nXénologue\n\n`, `<br/><u>Xénologue</u>\n`)
+    data = data.replaceAll(`Compétences communes à tous :`, `<br/>Compétences communes à tous :`)
+
+
     // we put all "ndp" in upper case
     data = data.replaceAll('ndp', "NDP")
 
@@ -149,6 +165,15 @@ function fixFile(data) {
 
     // hard fix for Explorateur (too much data)
     data = data.replace('Combat\nTraits', 'Combat\nPB_IMPORT\n\nTraits')
+
+    // hard fix for "à paraitre"
+    data = data.replace('Guide d’Athara, à paraître', '')
+    data = data.replace('Guide du Thaumaturge, à paraître', '')
+
+    // hard fix for langues of sauride
+    data = data.replace('\nLangue dérivée de la langue originelle des Danseurs de guerre\n', 'Langue dérivée de la langue originelle des Danseurs de guerre')
+
+    console.log(data);
 
     return data
 }
@@ -248,7 +273,7 @@ async function fixTextFileCommand(filename) {
     })
     .on('error', error => console.error(error))
     .on('data', data => fixFile(data))
-    .on('end', console.log(end))
+    .on('end', () => console.log('Fix finished'))
 }
 
 processArguments()

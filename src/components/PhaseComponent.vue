@@ -35,8 +35,7 @@
     <div class="sectionTitle">Compétences</div>
     <div class="sectionContent">
       <ul>
-        <li v-for="(competence, key) in phase.competences" :key="key">
-          {{ competence }}
+        <li v-for="(competence, key) in phase.competences" :key="key" v-html="competence">
         </li>
       </ul>
     </div>
