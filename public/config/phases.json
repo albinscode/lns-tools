@@ -2229,7 +2229,19 @@
         "Commerce, Falsification, Perspicacité, Tromperie",
         "Un au choix : Décorum ou Folklore",
         "Un au choix : Bibliothèque ou Déguisement",
-        "Une profession au choix :  Infliger QDS –1 à tout jet de CMP Faux érudit : Histoire et une de profession, mais le PJ peut utiliser Thaumaturgie au choix Falsification ou Tromperie à la place Faux noble : Art (Danse) et Séduction Faux voyageur : Navigation et Terres d’une CMP, sans malus. externes Bateleur : Escamotage et Jeu Camelot : Un Artisanat & Métier au choix et Bricolage Faussaire : Bricolage et Art (Dessin) Faux artiste : deux Arts au choix et Séduction Illuminé : Histoire et Théologie Médicastre : Bioscience et Médecine Monstreur : Bricolage et Faune Thériacleur : Arquémie et Médecine"
+        "Une profession au choix :",
+        "Infliger QDS –1 à tout jet de CMP de profession, mais le PJ peut utiliser Falsification ou Tromperie à la place d'une CMP sans malus.",
+        "<b>Bateleur</b> : Escamotage et Jeu",
+        "<b>Camelot</b> : Un Artisanat & Métier au choix et Bricolage",
+        "<b>Faussaire</b> : Bricolage et Art (Dessin)",
+        "<b>Faux artiste</b> : deux Arts au choix et Séduction",
+        "<b>Faux érudit</b> : Histoire et une Thaumaturgie au choix",
+        "<b>Faux noble</b> : Art (Danse) et Séduction",
+        "<b>Faux voyageur</b> : Navigation et Terres externes",
+        "<b>Illuminé</b> : Histoire et Théologie",
+        "<b>Médicastre</b> : Bioscience et Médecine",
+        "<b>Monstreur</b> : Bricolage et Faune",
+        "<b>Thériacleur</b> : Arquémie et Médecine"
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 14",
