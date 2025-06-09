@@ -4084,8 +4084,8 @@
       "niveau_de_vie": "modeste"
     },
     {
-      "titre": "Thaumaturge",
-      "id": "thaumaturge",
+      "titre": "Thaumaturge - Adæmoniteur",
+      "id": "thaumaturge_adæmoniteur",
       "soustitre": "Carrière,  à partir de NDP 1",
       "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
       "phases_conseillees": [
@@ -4100,40 +4100,428 @@
         "STA +4"
       ],
       "competences": [
-        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie en gras italique pour obtenir son doctorat et 14 CMP dans une autre en gras (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie <b><i>en gras italique</i></b> pour obtenir son doctorat et 14 CMP dans une autre <b>en gras</b> (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
         "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Adæmoniteur</u>",
-        "Adæmonition, Admin. & Lois, Cryptologie, Histoire, Vigilance",
+        "<b><i>Adæmonition</i></b>, Admin. & Lois, Cryptologie, Histoire, Vigilance",
         "Un au choix : Décorum ou Jeu",
         "Un au choix : Intimidation, Persuasion, Séduction ou Tromperie",
-        "Un au choix : Sciences formelles ou Stellartech <br/><u>Arquémiste</u>",
-        "Arquémie, Cryptologie, Histoire, Intendance, Terres externes, Théologie",
+        "Un au choix : <b>Sciences formelles</b> ou <b>Stellartech</b>"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance une Thaumaturgie une fois par partie"
+      ],
+      "avantages": [
+        "Le Faiseur : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne les recherches thaumaturgiques seulement (voir page 291)",
+        "Le Docte : Bibliothèque +NDP, une Thaumaturgie +2×NDP",
+        "Les Savants rayonnages : possède une petite bibliothèque d’ouvrages de référence à propos de deux Thaumaturgies. Lui octroie dans chacune de ces disciplines un bonus de +2×NDP lorsqu’il en a la disposition",
+        "Le Puits de science : EDU +1",
+        "Le Symposium : Persuasion +2×NDP, Décorum +NDP",
+        "La Sommité : STA +3 (dans une Université)"
+      ],
+      "materiel": "Des documents officiels et un sceau, une tenue adaptée à sa spécialité, une paire de bésicles, les clés de son laboratoire, une sacoche de matériel pour exercer chaque thaumaturgie connue, un nécessaire d’écriture, un mémento savant, un abonnement à la Grande Bibliothèque de Nessus",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Thaumaturge - Arquémiste",
+      "id": "thaumaturge_arquémiste",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Paracas, Enfant de la nuit",
+        "Culture : Nessus, autres cités",
+        "Caste : Commun, Optimate, Armiger, Exulte, Cénobite"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "AGR NDP+3",
+        "EDU NDP+13",
+        "STA +4"
+      ],
+      "competences": [
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie <b><i>en gras italique</i></b> pour obtenir son doctorat et 14 CMP dans une autre <b>en gras</b> (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Arquémiste</u>",
+        "<b><i>Arquémie</i></b>, Cryptologie, Histoire, Intendance, Terres externes, Théologie",
         "Un au choix : Faune ou Flore",
-        "Un au choix : Bioscience ou Physique <br/><u>Bioscientifique</u>",
-        "Bioscience, Conduite, Folklore, Persuasion, Perspicacité,",
+        "Un au choix : <b>Bioscience</b> ou <b>Physique</b> <br/>"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance une Thaumaturgie une fois par partie"
+      ],
+      "avantages": [
+        "Le Faiseur : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne les recherches thaumaturgiques seulement (voir page 291)",
+        "Le Docte : Bibliothèque +NDP, une Thaumaturgie +2×NDP",
+        "Les Savants rayonnages : possède une petite bibliothèque d’ouvrages de référence à propos de deux Thaumaturgies. Lui octroie dans chacune de ces disciplines un bonus de +2×NDP lorsqu’il en a la disposition",
+        "Le Puits de science : EDU +1",
+        "Le Symposium : Persuasion +2×NDP, Décorum +NDP",
+        "La Sommité : STA +3 (dans une Université)"
+      ],
+      "materiel": "Des documents officiels et un sceau, une tenue adaptée à sa spécialité, une paire de bésicles, les clés de son laboratoire, une sacoche de matériel pour exercer chaque thaumaturgie connue, un nécessaire d’écriture, un mémento savant, un abonnement à la Grande Bibliothèque de Nessus",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Thaumaturge - Bioscientifique",
+      "id": "thaumaturge_bioscientifique",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Paracas, Enfant de la nuit",
+        "Culture : Nessus, autres cités",
+        "Caste : Commun, Optimate, Armiger, Exulte, Cénobite"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "AGR NDP+3",
+        "EDU NDP+13",
+        "STA +4"
+      ],
+      "competences": [
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie <b><i>en gras italique</i></b> pour obtenir son doctorat et 14 CMP dans une autre <b>en gras</b> (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Bioscientifique</u>",
+        "<b><i>Bioscience</i></b>, Conduite, Folklore, Persuasion, Perspicacité,",
         "Un au choix : Faune ou Flore",
-        "Un au choix : Génétique ou Arquémie <br/><u>Chimériste</u>",
-        "Admin. & Lois, Faune, Flore, Folklore, Génétique, Histoire, Terres externes",
-        "Un au choix : Bioscience ou Arquémie <br/><u>Infiniticien</u>",
-        "Cryptologie, Histoire, Perspicacité, Persuasion, Physique",
+        "Un au choix : <b>Génétique</b> ou <b>Arquémie</b> <br/>"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance une Thaumaturgie une fois par partie"
+      ],
+      "avantages": [
+        "Le Faiseur : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne les recherches thaumaturgiques seulement (voir page 291)",
+        "Le Docte : Bibliothèque +NDP, une Thaumaturgie +2×NDP",
+        "Les Savants rayonnages : possède une petite bibliothèque d’ouvrages de référence à propos de deux Thaumaturgies. Lui octroie dans chacune de ces disciplines un bonus de +2×NDP lorsqu’il en a la disposition",
+        "Le Puits de science : EDU +1",
+        "Le Symposium : Persuasion +2×NDP, Décorum +NDP",
+        "La Sommité : STA +3 (dans une Université)"
+      ],
+      "materiel": "Des documents officiels et un sceau, une tenue adaptée à sa spécialité, une paire de bésicles, les clés de son laboratoire, une sacoche de matériel pour exercer chaque thaumaturgie connue, un nécessaire d’écriture, un mémento savant, un abonnement à la Grande Bibliothèque de Nessus",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Thaumaturge - Chimériste",
+      "id": "thaumaturge_chimériste",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Paracas, Enfant de la nuit",
+        "Culture : Nessus, autres cités",
+        "Caste : Commun, Optimate, Armiger, Exulte, Cénobite"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "AGR NDP+3",
+        "EDU NDP+13",
+        "STA +4"
+      ],
+      "competences": [
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie <b><i>en gras italique</i></b> pour obtenir son doctorat et 14 CMP dans une autre <b>en gras</b> (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Chimériste</u>",
+        "Admin. & Lois, Faune, Flore, Folklore, <b><i>Génétique</i></b>, Histoire, Terres externes",
+        "Un au choix : <b>Bioscience</b> ou <b>Arquémie</b> <br/>"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance une Thaumaturgie une fois par partie"
+      ],
+      "avantages": [
+        "Le Faiseur : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne les recherches thaumaturgiques seulement (voir page 291)",
+        "Le Docte : Bibliothèque +NDP, une Thaumaturgie +2×NDP",
+        "Les Savants rayonnages : possède une petite bibliothèque d’ouvrages de référence à propos de deux Thaumaturgies. Lui octroie dans chacune de ces disciplines un bonus de +2×NDP lorsqu’il en a la disposition",
+        "Le Puits de science : EDU +1",
+        "Le Symposium : Persuasion +2×NDP, Décorum +NDP",
+        "La Sommité : STA +3 (dans une Université)"
+      ],
+      "materiel": "Des documents officiels et un sceau, une tenue adaptée à sa spécialité, une paire de bésicles, les clés de son laboratoire, une sacoche de matériel pour exercer chaque thaumaturgie connue, un nécessaire d’écriture, un mémento savant, un abonnement à la Grande Bibliothèque de Nessus",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Thaumaturge - Infiniticien",
+      "id": "thaumaturge_infiniticien",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Paracas, Enfant de la nuit",
+        "Culture : Nessus, autres cités",
+        "Caste : Commun, Optimate, Armiger, Exulte, Cénobite"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "AGR NDP+3",
+        "EDU NDP+13",
+        "STA +4"
+      ],
+      "competences": [
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie <b><i>en gras italique</i></b> pour obtenir son doctorat et 14 CMP dans une autre <b>en gras</b> (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Infiniticien</u>",
+        "Cryptologie, Histoire, Perspicacité, Persuasion, <b><i>Physique</i></b>",
         "Un au choix : Art (Peinture), Art (Musique), Art (Poésie) ou Art (Sculpture)",
         "Un au choix : Jeu ou Stratégie",
-        "Un au choix : Adæmonition ou Sciences formelles <br/><u>Occulteur</u>",
-        "Cryptologie, Décorum, Fouille, Occultation",
+        "Un au choix : <b>Adæmonition</b> ou <b>Sciences formelles</b> <br/>"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance une Thaumaturgie une fois par partie"
+      ],
+      "avantages": [
+        "Le Faiseur : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne les recherches thaumaturgiques seulement (voir page 291)",
+        "Le Docte : Bibliothèque +NDP, une Thaumaturgie +2×NDP",
+        "Les Savants rayonnages : possède une petite bibliothèque d’ouvrages de référence à propos de deux Thaumaturgies. Lui octroie dans chacune de ces disciplines un bonus de +2×NDP lorsqu’il en a la disposition",
+        "Le Puits de science : EDU +1",
+        "Le Symposium : Persuasion +2×NDP, Décorum +NDP",
+        "La Sommité : STA +3 (dans une Université)"
+      ],
+      "materiel": "Des documents officiels et un sceau, une tenue adaptée à sa spécialité, une paire de bésicles, les clés de son laboratoire, une sacoche de matériel pour exercer chaque thaumaturgie connue, un nécessaire d’écriture, un mémento savant, un abonnement à la Grande Bibliothèque de Nessus",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Thaumaturge - Occulteur",
+      "id": "thaumaturge_occulteur",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Paracas, Enfant de la nuit",
+        "Culture : Nessus, autres cités",
+        "Caste : Commun, Optimate, Armiger, Exulte, Cénobite"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "AGR NDP+3",
+        "EDU NDP+13",
+        "STA +4"
+      ],
+      "competences": [
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie <b><i>en gras italique</i></b> pour obtenir son doctorat et 14 CMP dans une autre <b>en gras</b> (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Occulteur</u>",
+        "<b><i>Cryptologie</i></b>, Décorum, Fouille, Occultation",
         "Un Artisanat & Métier au choix : Ébénisterie, Ferronnerie ou Maçonnerie",
         "Un au choix : Art (Peinture) ou Art (Sculpture)",
-        "Un au choix : Histoire ou Folklore <br/><u>Médecin</u>",
-        "Décorum, Flore, Histoire, Intendance, Médecine, Perspicacité, Persuasion",
-        "Un au choix : Bioscience ou Génétique <br/><u>Mécanurge</u>",
-        "Bricolage, Commerce, Conduite (Automotive), Fouille, Histoire, Mécanologie",
+        "Un au choix : Histoire ou Folklore",
+        "Un au choix : <b>Mécanologie</b> ou <b>Fulgurique</b><br/>"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance une Thaumaturgie une fois par partie"
+      ],
+      "avantages": [
+        "Le Faiseur : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne les recherches thaumaturgiques seulement (voir page 291)",
+        "Le Docte : Bibliothèque +NDP, une Thaumaturgie +2×NDP",
+        "Les Savants rayonnages : possède une petite bibliothèque d’ouvrages de référence à propos de deux Thaumaturgies. Lui octroie dans chacune de ces disciplines un bonus de +2×NDP lorsqu’il en a la disposition",
+        "Le Puits de science : EDU +1",
+        "Le Symposium : Persuasion +2×NDP, Décorum +NDP",
+        "La Sommité : STA +3 (dans une Université)"
+      ],
+      "materiel": "Des documents officiels et un sceau, une tenue adaptée à sa spécialité, une paire de bésicles, les clés de son laboratoire, une sacoche de matériel pour exercer chaque thaumaturgie connue, un nécessaire d’écriture, un mémento savant, un abonnement à la Grande Bibliothèque de Nessus",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Thaumaturge - Médecin",
+      "id": "thaumaturge_medecin",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Paracas, Enfant de la nuit",
+        "Culture : Nessus, autres cités",
+        "Caste : Commun, Optimate, Armiger, Exulte, Cénobite"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "AGR NDP+3",
+        "EDU NDP+13",
+        "STA +4"
+      ],
+      "competences": [
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie <b><i>en gras italique</i></b> pour obtenir son doctorat et 14 CMP dans une autre <b>en gras</b> (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Médecin</u>",
+        "Décorum, Flore, Histoire, Intendance, <b><i>Médecine</i></b>, Perspicacité, Persuasion",
+        "Un au choix : <b>Bioscience</b> ou <b>Génétique</b> <br/>"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance une Thaumaturgie une fois par partie"
+      ],
+      "avantages": [
+        "Le Faiseur : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne les recherches thaumaturgiques seulement (voir page 291)",
+        "Le Docte : Bibliothèque +NDP, une Thaumaturgie +2×NDP",
+        "Les Savants rayonnages : possède une petite bibliothèque d’ouvrages de référence à propos de deux Thaumaturgies. Lui octroie dans chacune de ces disciplines un bonus de +2×NDP lorsqu’il en a la disposition",
+        "Le Puits de science : EDU +1",
+        "Le Symposium : Persuasion +2×NDP, Décorum +NDP",
+        "La Sommité : STA +3 (dans une Université)"
+      ],
+      "materiel": "Des documents officiels et un sceau, une tenue adaptée à sa spécialité, une paire de bésicles, les clés de son laboratoire, une sacoche de matériel pour exercer chaque thaumaturgie connue, un nécessaire d’écriture, un mémento savant, un abonnement à la Grande Bibliothèque de Nessus",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Thaumaturge - Mécanurge",
+      "id": "thaumaturge_mecanurge",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Paracas, Enfant de la nuit",
+        "Culture : Nessus, autres cités",
+        "Caste : Commun, Optimate, Armiger, Exulte, Cénobite"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "AGR NDP+3",
+        "EDU NDP+13",
+        "STA +4"
+      ],
+      "competences": [
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie <b><i>en gras italique</i></b> pour obtenir son doctorat et 14 CMP dans une autre <b>en gras</b> (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Mécanurge</u>",
+        "Bricolage, Commerce, Conduite (Automotive), Fouille, Histoire, <b><i>Mécanologie</i></b>",
         "Un Artisanat & Métier au choix",
-        "Un au choix : Arquémie ou Fulgurique <br/><u>Technologue</u>",
-        "Artisanat & Métier (Appareils mécanofulguriques), Artisanat & Métier (Effets spéciaux), Bricolage, Conduite (Monture, Attelage ou Automotive), Cryptologie, Fulgurique, Intendance",
-        "Un au choix : Mécanologie ou Stellartech <br/><u>Xénologue</u>",
-        "Bricolage, Connaissance (Outre-Ciel), Stellartech, Terres externes",
+        "Un au choix : <b>Arquémie</b> ou <b>Fulgurique</b> <br/>"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance une Thaumaturgie une fois par partie"
+      ],
+      "avantages": [
+        "Le Faiseur : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne les recherches thaumaturgiques seulement (voir page 291)",
+        "Le Docte : Bibliothèque +NDP, une Thaumaturgie +2×NDP",
+        "Les Savants rayonnages : possède une petite bibliothèque d’ouvrages de référence à propos de deux Thaumaturgies. Lui octroie dans chacune de ces disciplines un bonus de +2×NDP lorsqu’il en a la disposition",
+        "Le Puits de science : EDU +1",
+        "Le Symposium : Persuasion +2×NDP, Décorum +NDP",
+        "La Sommité : STA +3 (dans une Université)"
+      ],
+      "materiel": "Des documents officiels et un sceau, une tenue adaptée à sa spécialité, une paire de bésicles, les clés de son laboratoire, une sacoche de matériel pour exercer chaque thaumaturgie connue, un nécessaire d’écriture, un mémento savant, un abonnement à la Grande Bibliothèque de Nessus",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Thaumaturge - Technologue",
+      "id": "thaumaturge_technologue",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Paracas, Enfant de la nuit",
+        "Culture : Nessus, autres cités",
+        "Caste : Commun, Optimate, Armiger, Exulte, Cénobite"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "AGR NDP+3",
+        "EDU NDP+13",
+        "STA +4"
+      ],
+      "competences": [
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie <b><i>en gras italique</i></b> pour obtenir son doctorat et 14 CMP dans une autre <b>en gras</b> (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Technologue</u>",
+        "Artisanat & Métier (Appareils mécanofulguriques), Artisanat & Métier (Effets spéciaux), Bricolage, Conduite (Monture, Attelage ou Automotive), Cryptologie, <b><i>Fulgurique</i></b>, Intendance",
+        "Un au choix : <b>Mécanologie</b> ou <b>Stellartech</b> <br/>"
+      ],
+      "langages": [
+        "Commun (parlé, lu & écrit) 18",
+        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Xanthique (parlé, lu & écrit) 10",
+        "Tératoïde (lu & écrit) 10"
+      ],
+      "combat": [
+        "Armement civil"
+      ],
+      "traits": [
+        "Relance une Thaumaturgie une fois par partie"
+      ],
+      "avantages": [
+        "Le Faiseur : augmenter d’une QDS tout jet de jalon dans le Système de Projet – en ce qui concerne les recherches thaumaturgiques seulement (voir page 291)",
+        "Le Docte : Bibliothèque +NDP, une Thaumaturgie +2×NDP",
+        "Les Savants rayonnages : possède une petite bibliothèque d’ouvrages de référence à propos de deux Thaumaturgies. Lui octroie dans chacune de ces disciplines un bonus de +2×NDP lorsqu’il en a la disposition",
+        "Le Puits de science : EDU +1",
+        "Le Symposium : Persuasion +2×NDP, Décorum +NDP",
+        "La Sommité : STA +3 (dans une Université)"
+      ],
+      "materiel": "Des documents officiels et un sceau, une tenue adaptée à sa spécialité, une paire de bésicles, les clés de son laboratoire, une sacoche de matériel pour exercer chaque thaumaturgie connue, un nécessaire d’écriture, un mémento savant, un abonnement à la Grande Bibliothèque de Nessus",
+      "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Thaumaturge - Xénologue",
+      "id": "thaumaturge_xenologue",
+      "soustitre": "Carrière,  à partir de NDP 1",
+      "synopsis": "Héritier du trésor immémorial des sciences, le thaumaturge préserve les savoirs qui ont tantôt mené l’Homme aux portes des Cieux, tantôt causé sa chute. Qu’il brigue les honneurs académiques ou œuvre à de sombres projets, ce personnage a voué son existence à la restauration des miracles du passé, pour le meilleur... et pour le pire.",
+      "phases_conseillees": [
+        "Race : Humain, Automate, Paracas, Enfant de la nuit",
+        "Culture : Nessus, autres cités",
+        "Caste : Commun, Optimate, Armiger, Exulte, Cénobite"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, SGC et VLT",
+        "AGR NDP+3",
+        "EDU NDP+13",
+        "STA +4"
+      ],
+      "competences": [
+        "Pour mériter un titre universitaire, le personnage doit avoir 18 CMP dans la thaumaturgie <b><i>en gras italique</i></b> pour obtenir son doctorat et 14 CMP dans une autre <b>en gras</b> (au choix) pour obtenir son brevet. <br/>Compétences communes à tous :",
+        "Bibliothèque, Connaissance (Thaumaturges) <br/><u>Xénologue</u>",
+        "Bricolage, Connaissance (Outre-Ciel), <b><i>Stellartech</i></b>, Terres externes",
         "Un au choix : Admin. & Lois ou Histoire",
         "Un au choix : Faune ou Flore",
         "Un au choix : Décorum ou Fouille",
-        "Un au choix : Génétique ou Physique"
+        "Un au choix : <b>Génétique</b> ou <b>Physique</b>"
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
