@@ -2249,7 +2249,7 @@
         "Armement civil"
       ],
       "combat": [
-        "PB_IMPORT"
+        "Armement civil"
       ],
       "traits": [
         "Relance Persuasion une fois par partie"
@@ -2888,7 +2888,9 @@
         "Une arme à feu"
       ],
       "combat": [
-        "PB_IMPORT"
+        "Armement civil",
+        "Armement autochtone",
+        "Une arme à feu"
       ],
       "traits": [
         "Relance EDU une fois par partie"
@@ -3821,7 +3823,7 @@
         "Armement civil"
       ],
       "combat": [
-        "PB_IMPORT"
+        "Armement civil"
       ],
       "traits": [
         "Possède une bibliothèque lui octroyant +NDP dans deux savoirs précis (à déterminer avec le MJ)"
@@ -4008,7 +4010,7 @@
     },
     {
       "titre": "Éternel",
-      "id": "ternel",
+      "id": "eternel",
       "soustitre": "Carrière,  à partir de NDP 3",
       "synopsis": "D’un âge immémorial, la Garde éternelle veille sur le sommeil des périls des temps anciens. Ce membre de la Garde sait que, privée de son créateur et guide de toujours, cette Faction détentrice de lourds secrets risque de précipiter Teur dans le chaos. Du maintien des traditions à la rupture des interdits, quel chemin empruntera cet Éternel?",
       "phases_conseillees": [
