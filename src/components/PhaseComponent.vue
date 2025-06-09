@@ -44,8 +44,7 @@
     <div class="sectionTitle">Langages</div>
     <div class="sectionContent">
       <ul>
-        <li v-for="(langage, key) in phase.langages" :key="key">
-          {{ langage }}
+        <li v-for="(langage, key) in phase.langages" :key="key" v-html="langage">
         </li>
       </ul>
     </div>

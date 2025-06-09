@@ -305,7 +305,7 @@
     },
     {
       "titre": "Îles xanthiques",
-      "id": "les_xanthiques",
+      "id": "iles_xanthiques",
       "soustitre": "Culture,  à partir de NDP 1",
       "synopsis": "Enfant des archipels xanthiques qui étaient autrefois le berceau d’une civilisation stellaire, il a traversé l’Océan dans une expédition commerciale ou diplomatique et a fait sienne la société nessunienne. Après quelques années de résidence en tant qu’Externe, il a éventuellement mérité d’entrer dans une caste ou, au contraire, est devenu un paria.",
       "phases_conseillees": [
@@ -609,7 +609,7 @@
     },
     {
       "titre": "Éphyria",
-      "id": "phyria",
+      "id": "ephyria",
       "soustitre": "Culture,  à partir de NDP 1",
       "synopsis": "Venu des îles du Sud battues par les vents glaciaux, cet individu au teint et aux cheveux clairs a bravé monts et marées pour atteindre sa destination. Particulièrement endurci par le froid extrême de cette nation et par les affrontements avec les pirates et les monstres océaniques son peuple fournit à la Communauté ses meilleurs marins.",
       "phases_conseillees": [
@@ -1396,7 +1396,7 @@
       "langages": [
         "Commun (parlé, lu & écrit) 18",
         "Langue morte (parlé, lu & écrit) 14",
-        "Langue de l’Aube (parlé) 6 Deux au choix :",
+        "Langue de l’Aube (parlé) 6 <br />Deux au choix :",
         "Malpachi (parlé, lu & écrit) 10",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
@@ -1437,7 +1437,7 @@
         "Deux compétences au choix"
       ],
       "langages": [
-        "Commun (parlé, lu & écrit) 10 Un au choix :",
+        "Commun (parlé, lu & écrit) 10 <br/>Un au choix :",
         "Langue morte (parlé, lu & écrit) 10",
         "Malpachi (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10",
@@ -1486,7 +1486,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 14",
-        "Langue morte (parlé, lu & écrit) 6 Un au choix :",
+        "Langue morte (parlé, lu & écrit) 6 <br/>Un au choix :",
         "Malpachi (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 6"
       ],
@@ -1708,7 +1708,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 14",
-        "Langue morte (parlé, lu & écrit) 10 Un au choix :",
+        "Langue morte (parlé, lu & écrit) 10 <br/>Un au choix :",
         "Malpachi (parlé) 6",
         "Xanthique (parlé) 6"
       ],
@@ -1926,7 +1926,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 14",
-        "Langue morte (parlé, lu & écrit) 10 Un au choix :",
+        "Langue morte (parlé, lu & écrit) 10 <br/>Un au choix :",
         "Malpachi (parlé) 10",
         "Narquois (parlé) 6",
         "Xanthique (parlé, lu & écrit) 10"
@@ -1967,7 +1967,7 @@
         "Une Connaissance au choix"
       ],
       "langages": [
-        "Commun (parlé, lu & écrit) 14 Un au choix :",
+        "Commun (parlé, lu & écrit) 14 <br/>Un au choix :",
         "Langue morte (parlé, lu & écrit) 6",
         "Malpachi (parlé, lu & écrit) 6",
         "Narquois (parlé) 6"
@@ -2055,7 +2055,7 @@
         "Un au choix : Falsification ou Intendance"
       ],
       "langages": [
-        "Commun (parlé, lu & écrit) 10 Un au choix :",
+        "Commun (parlé, lu & écrit) 10 <br/>Un au choix :",
         "Langue morte (parlé, lu & écrit) 6",
         "Malpachi (parlé, lu & écrit) 6"
       ],
@@ -2142,7 +2142,7 @@
         "Un au choix : Commerce ou Dressage"
       ],
       "langages": [
-        "Commun (parlé) 10 Un au choix :",
+        "Commun (parlé) 10 <br/>Un au choix :",
         "Narquois (parlé) 10",
         "Malpachi (parlé) 10"
       ],
@@ -2273,7 +2273,7 @@
         "Un au choix : Effraction ou Stratégie"
       ],
       "langages": [
-        "Commun (parlé, lu & écrit) 10 Un au choix :",
+        "Commun (parlé, lu & écrit) 10 <br/>Un au choix :",
         "Malpachi (parlé, lu & écrit) 10",
         "Narquois (parlé) 10",
         "Langue morte (parlé, lu & écrit) 6"
@@ -2524,7 +2524,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Un au choix :",
+        "Langue morte (parlé, lu & écrit) 14 <br/>Un au choix :",
         "Malpachi (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 6",
         "Xanthique (parlé, lu & écrit) 10"
@@ -2546,7 +2546,7 @@
     },
     {
       "titre": "Écorcheur",
-      "id": "corcheur",
+      "id": "ecorcheur",
       "soustitre": "Carrière,  à partir de NDP 1",
       "synopsis": "Déchets pour certains, trésors pour l’écorcheur. Champs de bataille, ferraille rouillée, machines anciennes ou villages fantômes sont autant de sources de matériaux que ce personnage exploite pour en récupérer des ressources valorisables. Dans ce métier, chance et rivalité vont de pair car les ruines de Teur recèlent encore bien des merveilles.",
       "phases_conseillees": [
@@ -2818,7 +2818,7 @@
         "Un au choix : Conduite (Monture, Attelage ou Automotive) ou Survie"
       ],
       "langages": [
-        "Commun (parlé, lu & écrit) 10 Un au choix :",
+        "Commun (parlé, lu & écrit) 10 <br/>Un au choix :",
         "Langue morte (parlé) 6",
         "Malpachi (parlé) 6"
       ],
@@ -2868,7 +2868,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 14",
-        "Langue morte (parlé, lu & écrit) 14 Un au choix :",
+        "Langue morte (parlé, lu & écrit) 14 <br/>Un au choix :",
         "Malpachi (parlé, lu & écrit) 10",
         "Xanthique (parlé, lu & écrit) 10",
         "Armement civil",
@@ -3124,7 +3124,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 14",
-        "Langue morte (parlé, lu & écrit) 10 Au choix :",
+        "Langue morte (parlé, lu & écrit) 10 </br>Au choix :",
         "Narquois (parlé) 6",
         "Malpachi (parlé) 6"
       ],
@@ -3381,7 +3381,7 @@
         "Un Artisanat & Métier au choix"
       ],
       "langages": [
-        "Commun (parlé, lu & écrit) 10 Un au choix :",
+        "Commun (parlé, lu & écrit) 10 <br/>Un au choix :",
         "Malpachi (parlé) 10",
         "Xanthique (parlé) 10"
       ],
@@ -3469,7 +3469,7 @@
         "Une Connaissance au choix : Armées ou Factions"
       ],
       "langages": [
-        "Commun (parlé, lu & écrit) 10 Un au choix :",
+        "Commun (parlé, lu & écrit) 10 <br/>Un au choix :",
         "Malpachi (parlé) 6",
         "Narquois (parlé) 6"
       ],
@@ -3511,7 +3511,7 @@
         "Un au choix : Enquête ou Premiers soins"
       ],
       "langages": [
-        "Commun (parlé, lu & écrit) 10 Au choix :",
+        "Commun (parlé, lu & écrit) 10 </br>Au choix :",
         "Narquois (parlé) 6",
         "Malpachi (parlé) 6"
       ],
@@ -3718,7 +3718,7 @@
         "Un au choix : Vigilance ou Histoire"
       ],
       "langages": [
-        "Commun (parlé, lu & écrit) 14 Un au choix :",
+        "Commun (parlé, lu & écrit) 14 <br/>Un au choix :",
         "Malpachi (parlé) 10",
         "Narquois (parlé) 6"
       ],
@@ -3758,7 +3758,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Un au choix :",
+        "Langue morte (parlé, lu & écrit) 14 <br/>Un au choix :",
         "Narquois (parlé) 6",
         "Malpachi (parlé) 6"
       ],
@@ -3802,7 +3802,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 18 Un au choix :",
+        "Langue morte (parlé, lu & écrit) 18 <br/>Un au choix :",
         "Malpachi (parlé, lu & écrit) 14",
         "Tératoïde (lu & écrit) 14",
         "Xanthique (parlé, lu & écrit) 14",
@@ -3931,7 +3931,7 @@
         "Un au choix : Bricolage ou Dressage"
       ],
       "langages": [
-        "Commun (parlé) 10 Un au choix :",
+        "Commun (parlé) 10 <br/>Un au choix :",
         "Signes du voyage (lu & écrit) 6",
         "Malpachi (parlé) 6"
       ],
@@ -4019,7 +4019,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 18 Un au choix :",
+        "Langue morte (parlé, lu & écrit) 18 <br/>Un au choix :",
         "Malpachi (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10",
         "Xanthique (parlé, lu & écrit) 10",
@@ -4109,7 +4109,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Langue morte (parlé, lu & écrit) 14 </br>Au choix :",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
       ],
@@ -4155,7 +4155,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Langue morte (parlé, lu & écrit) 14 </br>Au choix :",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
       ],
@@ -4201,7 +4201,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Langue morte (parlé, lu & écrit) 14 </br>Au choix :",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
       ],
@@ -4246,7 +4246,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Langue morte (parlé, lu & écrit) 14 </br>Au choix :",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
       ],
@@ -4293,7 +4293,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Langue morte (parlé, lu & écrit) 14 </br>Au choix :",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
       ],
@@ -4341,7 +4341,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Langue morte (parlé, lu & écrit) 14 </br>Au choix :",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
       ],
@@ -4386,7 +4386,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Langue morte (parlé, lu & écrit) 14 </br>Au choix :",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
       ],
@@ -4432,7 +4432,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Langue morte (parlé, lu & écrit) 14 </br>Au choix :",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
       ],
@@ -4477,7 +4477,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Langue morte (parlé, lu & écrit) 14 </br>Au choix :",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
       ],
@@ -4525,7 +4525,7 @@
       ],
       "langages": [
         "Commun (parlé, lu & écrit) 18",
-        "Langue morte (parlé, lu & écrit) 14 Au choix :",
+        "Langue morte (parlé, lu & écrit) 14 </br>Au choix :",
         "Xanthique (parlé, lu & écrit) 10",
         "Tératoïde (lu & écrit) 10"
       ],
@@ -4568,7 +4568,7 @@
         "Un au choix : Premiers soins ou Connaissance (un biome au choix)"
       ],
       "langages": [
-        "Commun (parlé, lu & écrit) 10 Un au choix :",
+        "Commun (parlé, lu & écrit) 10 <br/>Un au choix :",
         "Malpachi (parlé) 10",
         "Narquois (parlé) 10"
       ],
