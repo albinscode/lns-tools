@@ -259,10 +259,26 @@ export default defineComponent ({
             scale: 0.15
           }
       });
-    }
+    },
+    sort(a: string, b: string) {
+      const nameA = a.toUpperCase();
+      const nameB = b.toUpperCase();
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+      return 0;
+    },
   },
+
   async mounted() {
     this.phases = await this.getPhases()
+    this.phases.carrieres = this.phases.carrieres.sort((a, b) => this.sort(a.id, b.id));
+    this.phases.races = this.phases.races.sort((a, b) => this.sort(a.id, b.id));
+    this.phases.cultures = this.phases.cultures.sort((a, b) => this.sort(a.id, b.id));
+    this.phases.castes = this.phases.castes.sort((a, b) => this.sort(a.id, b.id));
   }
 })
 </script>
