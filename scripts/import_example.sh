@@ -7,7 +7,7 @@ node import.js import phases_race.txt --phaseCategory races --outputJsonFile $JS
 # left part
 pdftotext -f 2 -l 3 -x 20 -y 20 -W 270 -H 720 phases_new.pdf phases_new_culture.txt
 # right part
-pdftotext -f 2 -l 3 -x 300 -y 20 -W 270 -H 720 phases_new.pdf phases_culture2.txt
+pdftotext -f 2 -l 3 -x 300 -y 20 -W 270 -H 720 phases_new.pdf phases_new_culture2.txt
 cat phases_new_culture.txt phases_new_culture2.txt > phases_new_culture_all.txt
 node import.js import phases_new_culture_all.txt --phaseCategory cultures --outputJsonFile $JSON_FILE_OUTPUT --concat
 # left part

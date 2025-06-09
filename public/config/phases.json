@@ -220,6 +220,49 @@
       "niveau_de_vie": "pauvre"
     },
     {
+      "titre": "Jungle",
+      "id": "jungle",
+      "soustitre": "Culture,  à partir de NDP 1",
+      "synopsis": "La jungle est un enfert vert grouillant de vie, prompt à dévorer l’explorateur insufisamment préparé. Malgré son inextricable géographie, son humidité et sa chaleur étouffantes, ses nuées d’insectes et ses prédateurs redoutables, la jungle est une cathédrale dont les fûts des arbres sont ses piliers et elle est le berceau de ce personnage.",
+      "phases_conseillees": [
+        "Race : Humain, Gizaï, Enfant de la nuit, Malakar, Sauride",
+        "Caste : Commun, Religieux, Paria, Autochtone",
+        "Carrière : Artisan, Aventurier, Bandit, Chasseur-guerrier, Explorateur, Marchand, Mercenaire, Survivant"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, CST, PER",
+        "Modulo 2 parmi CAR, SGC et ATT",
+        "AGR NDP +9",
+        "EDU NDP +5",
+        "STA +1"
+      ],
+      "competences": [
+        "Connaissance (Jungle), Escalade, Faune, Flore, Furtivité, Orientation, Survie, Vigilance",
+        "Un au choix : un Artisanat & Métier ou un Art (Chant, Danse ou Musique)"
+      ],
+      "langages": [
+        "Commun (parlé) 10",
+        "Malpachi (parlé) 10"
+      ],
+      "combat": [
+        "Armement civil",
+        "Armement autochtone",
+        "Armement primal"
+      ],
+      "traits": [
+        "Dans la jungle, compétences de Survie et de Furtivité +NDP"
+      ],
+      "avantages": [
+        "Puissance du fleuve : Navigation +NDP, Natation +NDP, Vigilance +NDP",
+        "Rite du chaman : Folklore +NDP, Théologie +NDP, Premiers soins +NDP",
+        "Feulement de la bête : Dressage +NDP, Faune +NDP, Intimidation +NDP",
+        "Mélodie du tam-tam : Chant +NDP, Danse +NDP, Musique +NDP",
+        "Tumulte du marché : un Artisanat & Métier au choix +NDP, Commerce +NDP, Décorum +NDP"
+      ],
+      "materiel": "Une machette, une calebasse à eau",
+      "niveau_de_vie": "pauvre"
+    },
+    {
       "titre": "Kejiaren",
       "id": "kejiaren",
       "soustitre": "Culture,  à partir de NDP 1",
@@ -433,6 +476,52 @@
       ],
       "materiel": "Une pèlerine, une toile camouflée (Furtivité +5 dans un biome), un nécessaire d’entretien d’armes, un nécessaire de campement",
       "niveau_de_vie": "moyen"
+    },
+    {
+      "titre": "Montagnard",
+      "id": "montagnard",
+      "soustitre": "Culture,  à partir de NDP 1",
+      "synopsis": "Ce personnage est né dans les montagnes de la Communauté, immenses murailles couronnées de neige éternelle. Enfant des roches escarpées et des rafales de vent, il sait que la montagne ne peut être conquise par l’Homme, mais qu’elle peut le conquérir. Portant son regard sur les vallées d’en bas, il a rejoint Nessus, y espérant une vie moins rude.",
+      "phases_conseillees": [
+        "Race : Humain, Gizaï, Paracas, Enfant de la nuit",
+        "Caste : Commun, Autochtone, Paria, Religieux",
+        "Carrière : Aventurier, Bandit, Chasseur-guerrier, Commandant, Explorateur, Marchand, Marcheur de St-Ruffan, Venator"
+      ],
+      "caracteristiques": [
+        "Bonus parmi ADR, CST, PER et VLT",
+        "Modulo 2 parmi CAR et ATT",
+        "AGR NDP +7",
+        "EDU NDP +5",
+        "STA +1"
+      ],
+      "competences": [
+        "Connaissance (Montagnes), Escalade, Glisse, Orientation, Survie, Vigilance",
+        "Une Conduite au choix : Monture ou Attelage",
+        "Un au choix : Jeu ou Commerce",
+        "Un au choix : Dressage ou un Artisanat & Métier",
+        "Un au choix : Art (Danse, Chant ou Musique) ou Folklore",
+        "Un au choix : Faune ou Flore"
+      ],
+      "langages": [
+        "Commun (parlé) 10",
+        "Malpachi (parlé) 6"
+      ],
+      "combat": [
+        "Armement civil",
+        "Armement autochtone",
+        "Armement culturel : fronde, bolas"
+      ],
+      "traits": [
+        "Bonus de NDP en PVG, VIR –2 contre le froid"
+      ],
+      "avantages": [
+        "La Source vive : Esquive +NDP, DPL +1",
+        "Le Pic distant : Escalade +NDP, Glisse +NDP, Survie +NDP",
+        "La Falaise venteuse : Conduite (Voltige) +2×NDP et possession d’un deltaplane (STR 13)",
+        "Le Sentier sinueux : Conduite (Monture) +NDP, Dressage +NDP, Faune +NDP"
+      ],
+      "materiel": "Un bâton de marche, un poncho en laine",
+      "niveau_de_vie": "pauvre"
     },
     {
       "titre": "Nessus",
